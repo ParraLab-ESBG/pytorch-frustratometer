@@ -1,0 +1,7 @@
+# PyTorch and matching torch-cluster wheels for CUDA 12.8.
+--extra-index-url https://download.pytorch.org/whl/cu128
+--find-links https://data.pyg.org/whl/torch-2.10.0+cu128.html
+--only-binary torch-cluster
+
+torch==2.10.0+cu128
+-e .

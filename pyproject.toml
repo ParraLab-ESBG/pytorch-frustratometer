@@ -1,0 +1,125 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pytorch-frustratometer"
+version = "0.1.0"
+description = "PyTorch implementation of the Frustratometer for GPU-accelerated protein frustration analysis"
+readme = "README.md"
+license = { text = "CC-BY-4.0" }
+authors = [
+    { name = "Eli Draizen", email = "e.draizen@gmail.com" },
+]
+keywords = [
+    "protein",
+    "frustration",
+    "bioinformatics",
+    "pytorch",
+    "structural-biology",
+    "AWSEM",
+    "frustratometer",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "click==8.3.1",
+    "click-option-group>=0.5.6",
+    "lightning==2.6.1",
+    "numpy==1.26.4",
+    "pandas==2.1.4",
+    "pyyaml==6.0.3",
+    "scipy==1.17.0",
+    "torch>=2.0",
+    "torch-cluster>=1.6.0",
+    "tqdm==4.67.3",
+    "matplotlib",
+    "seaborn",
+    "joblib",
+    "biotite>=1.7.1",
+    "h5py>=3.16.0",
+    "pyarrow",
+    "scikit-learn",
+    "dm-tree"
+]
+
+[project.optional-dependencies]
+analysis = [
+    "networkx>=3.0",
+    "nx-cugraph-cu12>=24.0; sys_platform == 'linux'",  # CUDA-only, no macOS wheels
+]
+pymol = [
+    # No ARM64 wheels compatible with numpy==1.26.4; pymol is a server-only extra.
+    "pymol-open-source>=3.0; sys_platform == 'linux'",
+]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
+
+[project.urls]
+Homepage = "https://github.com/ParraLab-ESBG/pytorch-frustratometer"
+Repository = "https://github.com/ParraLab-ESBG/pytorch-frustratometer"
+"Bug Tracker" = "https://github.com/ParraLab-ESBG/pytorch-frustratometer/issues"
+Changelog = "https://github.com/ParraLab-ESBG/pytorch-frustratometer/blob/main/CHANGELOG.md"
+
+[project.scripts]
+pytorch_frustratometer = "pytorch_frustratometer.cli:cli"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pytorch_frustratometer"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"pytorch_frustratometer/data/burial_gamma.dat" = "pytorch_frustratometer/data/burial_gamma.dat"
+"pytorch_frustratometer/data/water_gamma.dat" = "pytorch_frustratometer/data/water_gamma.dat"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "pytorch_frustratometer/",
+    "README.md",
+    "LICENSE",
+    "AUTHORS.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "pyproject.toml",
+]
+
+[tool.uv]
+link-mode = "copy"
+# Resolve a lock file that covers both the Linux cluster (CUDA) and macOS (MPS/CPU).
+required-environments = [
+    "sys_platform == 'linux'",
+    "sys_platform == 'darwin' and platform_machine == 'arm64'",  # Apple Silicon only; torch>=2.0 dropped Intel Mac
+]
+# PyG wheel links: list both variants; uv skips wheels incompatible with the
+# current platform, so having both URLs is harmless.
+find-links = [
+    "https://data.pyg.org/whl/torch-2.10.0+cu128.html",  # Linux CUDA
+    "https://data.pyg.org/whl/torch-2.10.0+cpu.html",    # macOS / CPU
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+# Linux → CUDA wheel from the PyTorch CUDA index.
+# macOS → standard PyPI wheel (includes MPS support); no entry needed.
+torch = [
+    { index = "pytorch-cu128", marker = "sys_platform == 'linux'" },
+]
+
+[tool.uv.extra-build-dependencies]
+torch-cluster = ["torch"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

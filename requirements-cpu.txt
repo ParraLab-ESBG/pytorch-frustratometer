@@ -1,0 +1,7 @@
+# CPU-only PyTorch and matching torch-cluster wheels.
+--extra-index-url https://download.pytorch.org/whl/cpu
+--find-links https://data.pyg.org/whl/torch-2.10.0+cpu.html
+--only-binary torch-cluster
+
+torch==2.10.0+cpu
+-e .

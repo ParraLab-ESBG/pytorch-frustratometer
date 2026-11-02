@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+.installed.cfg
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.pytest_cache/
+results/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.conflict1
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project-specific
+*.pdb_singleresidue
+*.pdb_mutational
+*.pdb_configurational
+*.pml
+runs/
+wandb/
+
+*.log
+*.lock
+*.pdb
+*.png
+
+
+# Test fixtures
+!tests/data/*.pdb
+!tests/data/frustratometeR/**/*.pdb_singleresidue
+!tests/data/frustratometeR/**/*.pdb_mutational
+!tests/data/frustratometeR/**/*.pdb_configurational

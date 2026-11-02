@@ -1,0 +1,3020 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1020"
+   height="855"
+   viewBox="0 0 1020 855"
+   version="1.1"
+   id="svg254"
+   sodipodi:docname="frustration_modes_diagram.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview254"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1352011"
+     inkscape:cx="245.77143"
+     inkscape:cy="639.0938"
+     inkscape:window-width="1512"
+     inkscape:window-height="910"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g97" />
+  <defs
+     id="defs1">
+    <style
+       type="text/css"
+       id="style1">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+    <filter
+       id="shadow"
+       x="-0.0032258065"
+       y="-0.0028248588"
+       width="1.0064516"
+       height="1.0056497">
+      <feDropShadow
+         dx="1"
+         dy="2"
+         stdDeviation="3"
+         flood-opacity="0.10" />
+    </filter>
+  </defs>
+  <!-- ░░ BACKGROUND ░░ -->
+  <rect
+     width="1020"
+     height="855"
+     fill="white"
+     id="rect1" />
+  <!-- ══ TITLE ══ -->
+  <!-- ══ BIO PANEL: Biological Motivation ══ -->
+  <!-- ── Left: Binding Sites (unbound) ── -->
+  <text
+     x="12"
+     y="42"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#1A1A2E"
+     id="text1">A</text>
+  <text
+     x="170"
+     y="41"
+     text-anchor="middle"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="11"
+     font-weight="700"
+     fill="#333"
+     id="text2">Binding Sites</text>
+  <image
+     href="bio_unbound.png"
+     x="93"
+     y="47"
+     width="155"
+     height="155"
+     preserveAspectRatio="xMidYMid meet"
+     id="image2" />
+  <text
+     x="170"
+     y="214"
+     text-anchor="middle"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="9"
+     fill="#666"
+     font-style="italic"
+     id="text3">Frustrated residues (red) concentrated at the binding interface</text>
+  <!-- ── Middle: Ankyrin Repeats (ANK) ── -->
+  <text
+     x="352"
+     y="42"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#1A1A2E"
+     id="text4">B</text>
+  <text
+     x="522"
+     y="41"
+     text-anchor="middle"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="11"
+     font-weight="700"
+     fill="#333"
+     id="text5">Stable Cores in Ankyrin Repeats</text>
+  <image
+     href="bio_ank_repeats.png"
+     x="362"
+     y="47"
+     width="320"
+     height="155"
+     preserveAspectRatio="xMidYMid meet"
+     id="image5" />
+  <text
+     x="522"
+     y="214"
+     text-anchor="middle"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="9"
+     fill="#666"
+     font-style="italic"
+     id="text6">Minimally frustrated residues (green) define stable repeat cores</text>
+  <!-- ── Right: Conformational Dynamics (ADK) ── -->
+  <text
+     x="692"
+     y="42"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="18"
+     font-weight="bold"
+     fill="#1A1A2E"
+     id="text7">C</text>
+  <text
+     x="856"
+     y="41"
+     text-anchor="middle"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="11"
+     font-weight="700"
+     fill="#333"
+     id="text8">Conformational Dynamics</text>
+  <image
+     href="bio_adk_closed.png"
+     x="779"
+     y="47"
+     width="155"
+     height="155"
+     preserveAspectRatio="xMidYMid meet"
+     id="image8" />
+  <text
+     x="856"
+     y="214"
+     text-anchor="middle"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="9"
+     fill="#666"
+     font-style="italic"
+     id="text9">Frustrated residues (red) cluster at the hinge — enabling motion</text>
+  <!-- ── Legend ── -->
+  <circle
+     cx="381"
+     cy="233"
+     r="4"
+     fill="#CC2222"
+     id="circle9" />
+  <text
+     x="389"
+     y="237"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="9"
+     fill="#555"
+     id="text10">Highly frustrated</text>
+  <circle
+     cx="485"
+     cy="233"
+     r="4"
+     fill="#22AA44"
+     id="circle10" />
+  <text
+     x="493"
+     y="237"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="9"
+     fill="#555"
+     id="text11">Minimally frustrated</text>
+  <circle
+     cx="603"
+     cy="233"
+     r="4"
+     fill="#BBBBBB"
+     id="circle11" />
+  <text
+     x="611"
+     y="237"
+     font-family="Helvetica Neue,Arial,sans-serif"
+     font-size="9"
+     fill="#555"
+     id="text12">Neutral</text>
+  <!-- ══ MODES SECTION ══ -->
+  <g
+     transform="translate(0, 24)"
+     id="g254">
+    <!-- ── Panel labels D / E / F — white, inside coloured headers ── -->
+    <text x="25" y="266" font-family="Helvetica Neue,Arial,sans-serif" font-size="18" font-weight="bold" fill="white" id="textD">D</text>
+    <text x="365" y="266" font-family="Helvetica Neue,Arial,sans-serif" font-size="18" font-weight="bold" fill="white" id="textE">E</text>
+    <text x="705" y="266" font-family="Helvetica Neue,Arial,sans-serif" font-size="18" font-weight="bold" fill="white" id="textF">F</text>
+    <!-- ════════════════════════════════════════════════════════════
+     ██  PANEL 1: SINGLE-RESIDUE  (left, #2196F3)
+     ════════════════════════════════════════════════════════════ -->
+    <rect
+       x="15"
+       y="241"
+       width="310"
+       height="354"
+       rx="10"
+       fill="white"
+       stroke="#2196F3"
+       stroke-width="2"
+       filter="url(#shadow)"
+       id="rect13" />
+    <rect
+       x="15"
+       y="241"
+       width="310"
+       height="40"
+       rx="10"
+       fill="#2196F3"
+       id="rect14" />
+    <rect
+       x="15"
+       y="261"
+       width="310"
+       height="20"
+       fill="#2196F3"
+       id="rect15" />
+    <text
+       x="170"
+       y="266"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text15">
+  Single-Residue
+</text>
+    <!-- description -->
+    <text
+       x="170"
+       y="296"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="11"
+       fill="#333"
+       id="text16">
+  Is position <tspan
+   font-style="italic"
+   id="tspan15">i</tspan> more stable with its native AA than
+</text>
+    <text
+       x="170"
+       y="312"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="11"
+       fill="#333"
+       id="text17">
+  any other amino acid at the same backbone position?
+</text>
+    <line
+       x1="25"
+       y1="322"
+       x2="315"
+       y2="322"
+       stroke="#BBDEFB"
+       stroke-width="1.2"
+       id="line17" />
+    <!-- ── SR Illustration ── -->
+    <!-- 1. Contact lines first (behind backbone + circles) -->
+    <line
+       x1="170"
+       y1="390"
+       x2="133"
+       y2="372"
+       stroke="#90CAF9"
+       stroke-width="1.6"
+       id="line18" />
+    <line
+       x1="170"
+       y1="390"
+       x2="205"
+       y2="370"
+       stroke="#90CAF9"
+       stroke-width="1.6"
+       id="line19" />
+    <line
+       x1="170"
+       y1="390"
+       x2="152"
+       y2="420"
+       stroke="#90CAF9"
+       stroke-width="1.6"
+       id="line20" />
+    <line
+       x1="170"
+       y1="390"
+       x2="192"
+       y2="420"
+       stroke="#90CAF9"
+       stroke-width="1.6"
+       id="line21" />
+    <!-- 2. Backbone path -->
+    <path
+       d="M 92,388          C 105,380 120,374 133,372          C 146,370 158,378 170,390          C 182,402 195,368 205,370          C 216,372 232,376 248,385          C 260,392 262,408 255,418          C 248,424 232,421 215,420          C 204,419 196,421 192,420          C 178,419 164,421 152,420          C 138,419 114,420  98,420"
+       stroke="#CCCCCC"
+       stroke-width="3.5"
+       fill="none"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path21" />
+    <!-- 3. Residue circles (grey = context, light blue = direct contact, blue = i) -->
+    <circle
+       cx="92"
+       cy="388"
+       r="11"
+       fill="#D0D0D0"
+       stroke="white"
+       stroke-width="1.5"
+       id="circle21" />
+    <circle
+       cx="248"
+       cy="385"
+       r="11"
+       fill="#D0D0D0"
+       stroke="white"
+       stroke-width="1.5"
+       id="circle22" />
+    <circle
+       cx="98"
+       cy="420"
+       r="11"
+       fill="#D0D0D0"
+       stroke="white"
+       stroke-width="1.5"
+       id="circle23" />
+    <circle
+       cx="215"
+       cy="420"
+       r="11"
+       fill="#D0D0D0"
+       stroke="white"
+       stroke-width="1.5"
+       id="circle24" />
+    <!-- direct contacts j -->
+    <circle
+       cx="133"
+       cy="372"
+       r="13"
+       fill="#90CAF9"
+       stroke="white"
+       stroke-width="1.5"
+       id="circle25" />
+    <circle
+       cx="205"
+       cy="370"
+       r="13"
+       fill="#90CAF9"
+       stroke="white"
+       stroke-width="1.5"
+       id="circle26" />
+    <circle
+       cx="152"
+       cy="420"
+       r="13"
+       fill="#90CAF9"
+       stroke="white"
+       stroke-width="1.5"
+       id="circle27" />
+    <circle
+       cx="192"
+       cy="420"
+       r="13"
+       fill="#90CAF9"
+       stroke="white"
+       stroke-width="1.5"
+       id="circle28" />
+    <!-- central residue i -->
+    <circle
+       cx="170"
+       cy="390"
+       r="17"
+       fill="#2196F3"
+       stroke="white"
+       stroke-width="2"
+       id="circle29" />
+    <text
+       x="170"
+       y="394"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="13"
+       font-weight="bold"
+       font-style="italic"
+       fill="white"
+       id="text29">i</text>
+    <!-- 4. Legend -->
+    <circle
+       cx="39"
+       cy="453"
+       r="7"
+       fill="#2196F3"
+       stroke="white"
+       stroke-width="1"
+       id="circle30" />
+    <text
+       x="50"
+       y="457"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#333"
+       id="text30">i  (native AA)</text>
+    <circle
+       cx="122"
+       cy="453"
+       r="6"
+       fill="#90CAF9"
+       stroke="white"
+       stroke-width="1"
+       id="circle31" />
+    <text
+       x="132"
+       y="457"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#333"
+       id="text31">direct contact j</text>
+    <circle
+       cx="219"
+       cy="453"
+       r="5.5"
+       fill="#D0D0D0"
+       stroke="white"
+       stroke-width="1"
+       id="circle32" />
+    <text
+       x="229"
+       y="457"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#888"
+       id="text32">structure context</text>
+    <line
+       x1="25"
+       y1="465"
+       x2="315"
+       y2="465"
+       stroke="#BBDEFB"
+       stroke-width="1.2"
+       id="line32" />
+    <!-- Key info box -->
+    <rect
+       x="25"
+       y="472"
+       width="290"
+       height="86"
+       rx="6"
+       fill="#E3F2FD"
+       id="rect32" />
+    <text
+       x="35"
+       y="487"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#1565C0"
+       id="text33">Decoys</text>
+    <text
+       x="90"
+       y="487"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text34">  exhaustive: all 20 AA substitutions at i</text>
+    <text
+       x="35"
+       y="501"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9.5"
+       fill="#666"
+       font-style="italic"
+       id="text35">  μ/σ weighted by sequence composition freq(AA)</text>
+    <text
+       x="35"
+       y="515"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#1565C0"
+       id="text36">Fixed</text>
+    <text
+       x="78"
+       y="515"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text37">  backbone + all j positions and identities</text>
+    <text
+       x="35"
+       y="529"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#1565C0"
+       id="text38">Energy</text>
+    <text
+       x="88"
+       y="529"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text39">  Eᵢ = Σⱼ [ water(i,j) + burial(i) + elec(i,j) ]</text>
+    <text
+       x="35"
+       y="543"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10"
+       fill="#666"
+       font-style="italic"
+       id="text40">  j = all residues in direct contact with i</text>
+    <!-- SR note -->
+    <text
+       x="25"
+       y="573"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9.5"
+       font-weight="700"
+       fill="#B45309"
+       id="text41">⚠ Changed from FrustratometeR:</text>
+    <text
+       x="25"
+       y="585"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#666"
+       font-style="italic"
+       id="text42">  Orig.: 1 000 decoys, AA drawn from sequence composition</text>
+    <!-- ════════════════════════════════════════════════════════════
+     ██  PANEL 2: MUTATIONAL  (centre, #4CAF50)
+     ════════════════════════════════════════════════════════════ -->
+    <rect
+       x="355"
+       y="241"
+       width="310"
+       height="354"
+       rx="10"
+       fill="white"
+       stroke="#4CAF50"
+       stroke-width="2"
+       filter="url(#shadow)"
+       id="rect42" />
+    <rect
+       x="355"
+       y="241"
+       width="310"
+       height="40"
+       rx="10"
+       fill="#4CAF50"
+       id="rect43" />
+    <rect
+       x="355"
+       y="261"
+       width="310"
+       height="20"
+       fill="#4CAF50"
+       id="rect44" />
+    <text
+       x="510"
+       y="266"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text44">
+  Mutational
+</text>
+    <!-- description -->
+    <text
+       x="510"
+       y="296"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="11"
+       fill="#333"
+       id="text45">
+  Is the native AA pair (<tspan
+   font-style="italic"
+   id="tspan44">i</tspan>, <tspan
+   font-style="italic"
+   id="tspan45">j</tspan>) more stable than random
+</text>
+    <text
+       x="510"
+       y="312"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="11"
+       fill="#333"
+       id="text46">
+  substitutions at the same fixed backbone positions?
+</text>
+    <line
+       x1="365"
+       y1="322"
+       x2="655"
+       y2="322"
+       stroke="#C8E6C9"
+       stroke-width="1.2"
+       id="line46" />
+    <!-- ── MUT Illustration ── -->
+    <g
+       transform="translate(14, 0)"
+       id="g66">
+      <!-- 1. Background lines (dashed, lightest) from i and j to background k -->
+      <line
+         x1="472"
+         y1="390"
+         x2="490"
+         y2="420"
+         stroke="#C8E6C9"
+         stroke-width="1.3"
+         stroke-dasharray="4,3"
+         id="line47" />
+      <line
+         x1="472"
+         y1="390"
+         x2="425"
+         y2="416"
+         stroke="#C8E6C9"
+         stroke-width="1.3"
+         stroke-dasharray="4,3"
+         id="line48" />
+      <line
+         x1="530"
+         y1="390"
+         x2="550"
+         y2="420"
+         stroke="#C8E6C9"
+         stroke-width="1.3"
+         stroke-dasharray="4,3"
+         id="line49" />
+      <line
+         x1="530"
+         y1="390"
+         x2="595"
+         y2="418"
+         stroke="#C8E6C9"
+         stroke-width="1.3"
+         stroke-dasharray="4,3"
+         id="line50" />
+      <!-- 2. Direct contact lines (solid, medium green) from i and j to contacts -->
+      <line
+         x1="472"
+         y1="390"
+         x2="448"
+         y2="370"
+         stroke="#81C784"
+         stroke-width="1.6"
+         id="line51" />
+      <line
+         x1="472"
+         y1="390"
+         x2="502"
+         y2="368"
+         stroke="#81C784"
+         stroke-width="1.6"
+         id="line52" />
+      <line
+         x1="530"
+         y1="390"
+         x2="502"
+         y2="368"
+         stroke="#81C784"
+         stroke-width="1.6"
+         id="line53" />
+      <line
+         x1="530"
+         y1="390"
+         x2="556"
+         y2="368"
+         stroke="#81C784"
+         stroke-width="1.6"
+         id="line54" />
+      <!-- i–j pair interaction (dashed green) -->
+      <line
+         x1="472"
+         y1="390"
+         x2="530"
+         y2="390"
+         stroke="#4CAF50"
+         stroke-width="2"
+         stroke-dasharray="5,3"
+         id="line55" />
+      <!-- 3. Backbone path -->
+      <path
+         d="M 392,393          C 410,383 430,375 448,370          C 460,366 466,378 472,390          C 478,402 490,364 502,368          C 513,372 523,380 530,390          C 537,400 547,364 556,368          C 565,372 582,378 603,393          C 612,403 606,416 590,418          C 575,420 562,420 550,420          C 534,420 514,420 490,420          C 473,420 458,418 425,416          C 408,415 396,416 388,416"
+         stroke="#CCCCCC"
+         stroke-width="3.5"
+         fill="none"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path55" />
+      <!-- 4. Residue circles -->
+      <!-- grey context -->
+      <circle
+         cx="392"
+         cy="393"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle55" />
+      <circle
+         cx="603"
+         cy="393"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle56" />
+      <circle
+         cx="388"
+         cy="416"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle57" />
+      <!-- background k (dashed contacts) -->
+      <circle
+         cx="425"
+         cy="416"
+         r="12"
+         fill="#C8E6C9"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle58" />
+      <circle
+         cx="490"
+         cy="420"
+         r="12"
+         fill="#C8E6C9"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle59" />
+      <circle
+         cx="550"
+         cy="420"
+         r="12"
+         fill="#C8E6C9"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle60" />
+      <circle
+         cx="595"
+         cy="418"
+         r="12"
+         fill="#C8E6C9"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle61" />
+      <!-- direct contacts k -->
+      <circle
+         cx="448"
+         cy="370"
+         r="13"
+         fill="#81C784"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle62" />
+      <circle
+         cx="502"
+         cy="368"
+         r="13"
+         fill="#81C784"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle63" />
+      <circle
+         cx="556"
+         cy="368"
+         r="13"
+         fill="#81C784"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle64" />
+      <!-- central pair i and j -->
+      <circle
+         cx="472"
+         cy="390"
+         r="17"
+         fill="#4CAF50"
+         stroke="white"
+         stroke-width="2"
+         id="circle65" />
+      <text
+         x="472"
+         y="394"
+         text-anchor="middle"
+         font-family="Helvetica Neue,Arial,sans-serif"
+         font-size="13"
+         font-weight="bold"
+         font-style="italic"
+         fill="white"
+         id="text65">i</text>
+      <circle
+         cx="530"
+         cy="390"
+         r="17"
+         fill="#4CAF50"
+         stroke="white"
+         stroke-width="2"
+         id="circle66" />
+      <text
+         x="530"
+         y="394"
+         text-anchor="middle"
+         font-family="Helvetica Neue,Arial,sans-serif"
+         font-size="13"
+         font-weight="bold"
+         font-style="italic"
+         fill="white"
+         id="text66">j</text>
+    </g>
+    <!-- 4. Legend -->
+    <circle
+       cx="387"
+       cy="453"
+       r="7"
+       fill="#4CAF50"
+       stroke="white"
+       stroke-width="1"
+       id="circle67" />
+    <text
+       x="398"
+       y="457"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#333"
+       id="text67">i, j (native pair)</text>
+    <circle
+       cx="495"
+       cy="453"
+       r="6"
+       fill="#81C784"
+       stroke="white"
+       stroke-width="1"
+       id="circle68" />
+    <text
+       x="505"
+       y="457"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#333"
+       id="text68">direct contact</text>
+    <circle
+       cx="583"
+       cy="453"
+       r="6"
+       fill="#C8E6C9"
+       stroke="#A5D6A7"
+       stroke-width="1"
+       id="circle69" />
+    <text
+       x="593"
+       y="457"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#888"
+       id="text69">background</text>
+    <line
+       x1="365"
+       y1="465"
+       x2="655"
+       y2="465"
+       stroke="#C8E6C9"
+       stroke-width="1.2"
+       id="line69" />
+    <!-- Key info box -->
+    <rect
+       x="365"
+       y="472"
+       width="290"
+       height="86"
+       rx="6"
+       fill="#F1F8E9"
+       id="rect69" />
+    <text
+       x="375"
+       y="489"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#2E7D32"
+       id="text70">Decoys</text>
+    <text
+       x="430"
+       y="489"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text71">  1 000 decoys at (i, j);  backbone fixed</text>
+    <text
+       x="375"
+       y="505"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#2E7D32"
+       id="text72">Varies</text>
+    <text
+       x="422"
+       y="505"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text73">  AA₁ at i and AA₂ at j varied independently</text>
+    <text
+       x="375"
+       y="521"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#2E7D32"
+       id="text74">Energy</text>
+    <text
+       x="428"
+       y="521"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text75">  direct(i,j) + Σₖ water(i/j,k) + Σₖ elec(i/j,k)</text>
+    <text
+       x="375"
+       y="537"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10"
+       fill="#666"
+       font-style="italic"
+       id="text76">  k = background residues (light green) near i or j</text>
+    <!-- ════════════════════════════════════════════════════════════
+     ██  PANEL 3: CONFIGURATIONAL  (right, #FF5722)
+     ════════════════════════════════════════════════════════════ -->
+    <rect
+       x="695"
+       y="241"
+       width="310"
+       height="354"
+       rx="10"
+       fill="white"
+       stroke="#FF5722"
+       stroke-width="2"
+       filter="url(#shadow)"
+       id="rect76" />
+    <rect
+       x="695"
+       y="241"
+       width="310"
+       height="40"
+       rx="10"
+       fill="#FF5722"
+       id="rect77" />
+    <rect
+       x="695"
+       y="261"
+       width="310"
+       height="20"
+       fill="#FF5722"
+       id="rect78" />
+    <text
+       x="850"
+       y="266"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="14"
+       font-weight="bold"
+       fill="white"
+       id="text78">
+  Configurational
+</text>
+    <!-- description -->
+    <text
+       x="850"
+       y="296"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="11"
+       fill="#333"
+       id="text79">
+  Is the native geometry of pair (<tspan
+   font-style="italic"
+   id="tspan78">i</tspan>, <tspan
+   font-style="italic"
+   id="tspan79">j</tspan>) more stable than
+</text>
+    <text
+       x="850"
+       y="312"
+       text-anchor="middle"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="11"
+       fill="#333"
+       id="text80">
+  random residue pairs drawn from the same fold?
+</text>
+    <line
+       x1="705"
+       y1="322"
+       x2="995"
+       y2="322"
+       stroke="#FFCCBC"
+       stroke-width="1.2"
+       id="line80" />
+    <!-- ── CONF Illustration ── -->
+    <g
+       transform="translate(23, 0)"
+       id="g97">
+      <!-- 1. Decoy pair lines (dashed grey, drawn behind everything) -->
+      <!-- decoy pair 1: r2(758,374) ↔ r8(912,418) — different distance and angle -->
+      <line
+         x1="758"
+         y1="374"
+         x2="912"
+         y2="418"
+         stroke="#BDBDBD"
+         stroke-width="1.4"
+         stroke-dasharray="6,3"
+         id="line81" />
+      <!-- decoy pair 2: r13(730,415) ↔ r7(923,395) — another random pair, long range -->
+      <line
+         x1="730"
+         y1="415"
+         x2="923"
+         y2="395"
+         stroke="#BDBDBD"
+         stroke-width="1.4"
+         stroke-dasharray="6,3"
+         id="line82" />
+      <!-- 2. Native pair line (solid orange) -->
+      <line
+         x1="808"
+         y1="383"
+         x2="866"
+         y2="388"
+         stroke="#FF5722"
+         stroke-width="2.2"
+         id="line83" />
+      <!-- 3. Backbone path -->
+      <path
+         d="M 730,392          C 740,384 750,378 758,374          C 774,368 793,373 808,383          C 818,390 828,366 843,368          C 853,370 863,377 866,388          C 873,400 883,370 892,374          C 902,378 914,386 923,395          C 928,402 920,412 912,418          C 904,422 890,421 878,420          C 862,419 849,420 838,420          C 823,420 810,420 795,420          C 780,420 768,418 755,415          C 742,414 734,415 730,415"
+         stroke="#CCCCCC"
+         stroke-width="3.5"
+         fill="none"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path83" />
+      <!-- 4. Residue circles -->
+      <!-- grey context (drawn before native pair for z-order) -->
+      <circle
+         cx="730"
+         cy="392"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle83" />
+      <circle
+         cx="758"
+         cy="374"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle84" />
+      <circle
+         cx="843"
+         cy="368"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle85" />
+      <circle
+         cx="892"
+         cy="374"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle86" />
+      <circle
+         cx="923"
+         cy="395"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle87" />
+      <circle
+         cx="912"
+         cy="418"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle88" />
+      <circle
+         cx="878"
+         cy="420"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle89" />
+      <circle
+         cx="838"
+         cy="420"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle90" />
+      <circle
+         cx="795"
+         cy="420"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle91" />
+      <circle
+         cx="755"
+         cy="415"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle92" />
+      <circle
+         cx="730"
+         cy="415"
+         r="11"
+         fill="#D0D0D0"
+         stroke="white"
+         stroke-width="1.5"
+         id="circle93" />
+      <!-- native pair i and j (drawn on top) -->
+      <circle
+         cx="808"
+         cy="383"
+         r="17"
+         fill="#FF5722"
+         stroke="white"
+         stroke-width="2"
+         id="circle94" />
+      <text
+         x="808"
+         y="387"
+         text-anchor="middle"
+         font-family="Helvetica Neue,Arial,sans-serif"
+         font-size="13"
+         font-weight="bold"
+         font-style="italic"
+         fill="white"
+         id="text94">i</text>
+      <circle
+         cx="866"
+         cy="388"
+         r="17"
+         fill="#FF5722"
+         stroke="white"
+         stroke-width="2"
+         id="circle95" />
+      <text
+         x="866"
+         y="392"
+         text-anchor="middle"
+         font-family="Helvetica Neue,Arial,sans-serif"
+         font-size="13"
+         font-weight="bold"
+         font-style="italic"
+         fill="white"
+         id="text95">j</text>
+      <!-- d(i,j) label on native line — placed above the grey circle at (843,368) -->
+      <!-- "random" label — below circle bottoms (circles y≈420, r=11 → bottom y≈431) -->
+    </g>
+    <!-- 4. Legend -->
+    <circle
+       cx="736"
+       cy="453"
+       r="7"
+       fill="#FF5722"
+       stroke="white"
+       stroke-width="1"
+       id="circle97" />
+    <text
+       x="747"
+       y="457"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#333"
+       id="text98">i, j (native pair)</text>
+    <!-- dashed grey line indicator -->
+    <line
+       x1="839"
+       y1="453"
+       x2="859"
+       y2="453"
+       stroke="#BDBDBD"
+       stroke-width="1.8"
+       stroke-dasharray="5,3"
+       id="line98" />
+    <circle
+       cx="836"
+       cy="453"
+       r="5"
+       fill="#D0D0D0"
+       stroke="white"
+       stroke-width="1"
+       id="circle98" />
+    <circle
+       cx="862"
+       cy="453"
+       r="5"
+       fill="#D0D0D0"
+       stroke="white"
+       stroke-width="1"
+       id="circle99" />
+    <text
+       x="869"
+       y="457"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#888"
+       id="text99">random pair (decoy)</text>
+    <line
+       x1="705"
+       y1="465"
+       x2="995"
+       y2="465"
+       stroke="#FFCCBC"
+       stroke-width="1.2"
+       id="line99" />
+    <!-- Key info box -->
+    <rect
+       x="705"
+       y="472"
+       width="290"
+       height="86"
+       rx="6"
+       fill="#FBE9E7"
+       id="rect99" />
+    <text
+       x="715"
+       y="489"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#E64A19"
+       id="text100">Decoys</text>
+    <text
+       x="769"
+       y="489"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text101">  1 000 random residue pairs from fold</text>
+    <text
+       x="715"
+       y="505"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#E64A19"
+       id="text102">Varies</text>
+    <text
+       x="762"
+       y="505"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text103">  distance, density + AA type (each indep.)</text>
+    <text
+       x="715"
+       y="521"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       font-weight="700"
+       fill="#E64A19"
+       id="text104">Energy</text>
+    <text
+       x="767"
+       y="521"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="10.5"
+       fill="#444"
+       id="text105">  water(i,j) + burial(i) + burial(j) + elec(i,j)</text>
+    <text
+       x="715"
+       y="537"
+       font-family="Helvetica Neue,Arial,sans-serif"
+       font-size="9"
+       fill="#666"
+       font-style="italic"
+       id="text106">  5 draws: 1 dist pair (d &lt; cutoff), 2 density, 2 AA type</text>
+    <!-- ══ KDE DISTRIBUTIONS (E) ══ -->
+    <text
+       x="12"
+       y="618"
+       font-family="'Helvetica Neue', Arial, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#1a1a2e"
+       id="text107">E</text>
+    <!-- kde_combined inlined -->
+    <defs
+       id="defs107">
+      <clipPath
+         id="kde_combined_clip">
+        <rect
+           x="-35"
+           y="611"
+           width="1040"
+           height="200"
+           id="rect107" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#kde_combined_clip)"
+       id="g249"
+       transform="translate(0,10)">
+      <g
+         transform="translate(15,611)"
+         id="g248">
+        <g
+           id="kde_figure_1">
+          <g
+             id="kde_patch_1">
+            <path
+               d="M 0,200 H 990 V 0 H 0 Z"
+               style="fill:#ffffff"
+               id="path107" />
+          </g>
+          <g
+             id="kde_axes_1">
+            <g
+               id="kde_patch_2">
+              <path
+                 d="M 20,158 H 323.73737 V 10 H 20 Z"
+                 style="fill:#ffffff"
+                 id="path108" />
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_1">
+              <defs
+                 id="defs108">
+                <path
+                   id="kde_m2d3b64c8f6"
+                   d="m 20,-42 v -0.0016 l 0.507074,-2.14e-4 0.507074,-2.23e-4 0.507074,-2.29e-4 0.507074,-2.32e-4 0.507074,-2.33e-4 0.507074,-2.3e-4 0.507075,-2.25e-4 0.507074,-2.19e-4 0.507074,-2.1e-4 0.507074,-2e-4 0.507074,-1.91e-4 0.507074,-1.79e-4 0.507074,-1.69e-4 0.507074,-1.58e-4 0.507074,-1.46e-4 0.507074,-1.35e-4 0.507074,-1.23e-4 0.507074,-1.09e-4 0.507075,-9.5e-5 0.507074,-7.8e-5 0.507074,-5.9e-5 0.507074,-3.8e-5 0.507074,-1.5e-5 0.507074,9e-6 0.507074,3.5e-5 0.507074,6.2e-5 0.507074,8.8e-5 0.507074,1.11e-4 0.507074,1.33e-4 0.507074,1.51e-4 0.507074,1.62e-4 0.507075,1.67e-4 0.507074,1.67e-4 0.507074,1.56e-4 0.507074,1.39e-4 0.507074,1.13e-4 0.507074,7.9e-5 0.507074,3.6e-5 0.507074,-1.2e-5 0.507074,-6.6e-5 0.507074,-1.25e-4 0.507074,-1.85e-4 0.507074,-2.48e-4 0.507075,-3.1e-4 0.507074,-3.69e-4 0.507074,-4.25e-4 0.507074,-4.76e-4 0.507074,-5.22e-4 0.507074,-5.61e-4 0.507074,-5.95e-4 0.507074,-6.22e-4 0.507074,-6.45e-4 0.507074,-6.63e-4 0.507074,-6.78e-4 0.507074,-6.91e-4 0.507074,-7.06e-4 0.507075,-7.2e-4 0.507074,-7.38e-4 0.507074,-7.61e-4 0.507074,-7.89e-4 0.507074,-8.24e-4 0.507074,-8.66e-4 0.507074,-9.18e-4 0.507074,-9.79e-4 0.507074,-10e-4 0.507074,-0.0011 0.507074,-0.0012 0.507074,-0.0013 0.507074,-0.0014 0.507075,-0.0016 0.507074,-0.0017 0.507074,-0.0018 0.507074,-0.002 0.507074,-0.0021 0.507074,-0.0023 0.507074,-0.0024 0.507074,-0.0026 0.507074,-0.0028 0.507074,-0.0029 0.507074,-0.0031 0.507074,-0.0033 0.507075,-0.0034 0.507074,-0.0036 0.507074,-0.0038 0.507074,-0.0039 0.507074,-0.0041 0.507074,-0.0043 0.507074,-0.0044 0.507074,-0.0046 0.507074,-0.0048 0.507074,-0.005 0.507074,-0.0051 0.507074,-0.0053 0.507074,-0.0054 0.507075,-0.0055 0.507074,-0.0057 0.507074,-0.0058 0.507074,-0.0059 0.507074,-0.006 0.507074,-0.006 0.507074,-0.0061 0.507074,-0.0062 0.507074,-0.0063 0.507074,-0.0064 0.507074,-0.0065 0.507074,-0.0066 0.507075,-0.0068 0.507074,-0.007 0.507074,-0.0072 0.507074,-0.0074 0.507074,-0.0076 0.507074,-0.0079 0.507074,-0.0082 0.507074,-0.0085 0.507074,-0.0088 0.507074,-0.0091 0.507074,-0.0095 0.507074,-0.0098 0.507074,-0.01017 0.507075,-0.01056 0.507074,-0.01095 0.507074,-0.01137 0.507074,-0.0118 0.507074,-0.01225 0.507074,-0.01273 0.507074,-0.01324 0.507074,-0.01378 0.507074,-0.01436 0.507074,-0.01498 0.507074,-0.01566 0.507074,-0.01639 0.507075,-0.01719 0.507074,-0.01806 0.507074,-0.01901 0.507074,-0.02004 0.507074,-0.02115 0.507074,-0.02234 0.507074,-0.02361 0.507074,-0.02495 0.507074,-0.02636 0.507074,-0.02783 0.507074,-0.02936 0.507074,-0.03094 0.507074,-0.03257 0.507075,-0.03425 0.507074,-0.03598 0.507074,-0.03778 0.507074,-0.03967 0.507074,-0.04165 0.507074,-0.04376 0.507074,-0.04602 0.507074,-0.04845 0.507074,-0.05109 0.507074,-0.05396 0.507074,-0.05708 0.507074,-0.06048 0.507075,-0.06416 0.507079,-0.06813 0.50707,-0.0724 0.50707,-0.07697 0.50708,-0.08181 0.50707,-0.08694 0.50708,-0.09233 0.50707,-0.09797 0.50707,-0.103865 0.50708,-0.110003 0.50707,-0.116387 0.50708,-0.123026 0.50707,-0.12993 0.50707,-0.13712 0.50708,-0.144615 0.50707,-0.152441 0.50708,-0.160623 0.50707,-0.169182 0.50707,-0.178138 0.50708,-0.187506 0.50707,-0.197293 0.50708,-0.207499 0.50707,-0.218114 0.50707,-0.229124 0.50708,-0.240502 0.50707,-0.252219 0.50708,-0.264241 0.50707,-0.276525 0.50708,-0.289032 0.50707,-0.301718 0.50707,-0.31454 0.50708,-0.327459 0.50707,-0.340438 0.50708,-0.353444 0.50707,-0.366453 0.50707,-0.379451 0.50708,-0.392426 0.50707,-0.405388 0.50708,-0.418354 0.50707,-0.431356 0.50707,-0.44444 0.50708,-0.45767 0.50707,-0.471116 0.50708,-0.484862 0.50707,-0.498996 0.50707,-0.513609 0.50708,-0.52879 0.50707,-0.544623 0.50708,-0.561174 0.50707,-0.578502 0.50707,-0.596648 0.50708,-0.61563 0.50707,-0.635455 0.50708,-0.656116 0.50707,-0.677586 0.50708,-0.699837 0.50707,-0.722833 0.50707,-0.746537 0.50708,-0.770908 0.50707,-0.795909 0.50707,-0.821502 0.50708,-0.84764 0.50707,-0.874267 0.50708,-0.901311 0.50707,-0.928675 0.50708,-0.95623 0.50707,-0.983809 0.50707,-1.011204 0.50708,-1.038162 0.50707,-1.064393 0.50708,-1.089565 0.50707,-1.113326 0.50707,-1.135307 0.50708,-1.155139 0.50707,-1.17247 0.50708,-1.186983 0.50707,-1.198402 0.50707,-1.206514 0.50708,-1.211167 0.50707,-1.212284 0.50708,-1.209856 0.50707,-1.203936 0.50707,-1.194638 V -42 v 0 h -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 H 99.610631 99.103556 98.596482 98.089408 97.582334 97.07526 96.568186 96.061112 95.554038 95.046964 94.53989 94.032816 93.525742 93.018667 92.511593 92.004519 91.497445 90.990371 90.483297 89.976223 89.469149 88.962075 88.455001 87.947927 87.440853 86.933779 86.426704 85.91963 85.412556 84.905482 84.398408 83.891334 83.38426 82.877186 82.370112 81.863038 81.355964 80.84889 80.341815 79.834741 79.327667 78.820593 78.313519 77.806445 77.299371 76.792297 76.285223 75.778149 75.271075 74.764001 74.256927 73.749852 73.242778 72.735704 72.22863 71.721556 71.214482 70.707408 70.200334 69.69326 69.186186 68.679112 68.172038 67.664963 67.157889 66.650815 66.143741 65.636667 65.129593 64.622519 64.115445 63.608371 63.101297 62.594223 62.087149 61.580075 61.073 60.565926 60.058852 59.551778 59.044704 58.53763 58.030556 57.523482 57.016408 56.509334 56.00226 55.495186 54.988111 54.481037 53.973963 53.466889 52.959815 52.452741 51.945667 51.438593 50.931519 50.424445 49.917371 49.410297 48.903223 48.396148 47.889074 47.382 46.874926 46.367852 45.860778 45.353704 44.84663 44.339556 43.832482 43.325408 42.818334 42.31126 41.804185 41.297111 40.790037 40.282963 39.775889 39.268815 38.761741 38.254667 37.747593 37.240519 36.733445 36.226371 35.719296 35.212222 34.705148 34.198074 33.691 33.183926 32.676852 32.169778 31.662704 31.15563 30.648556 30.141482 29.634408 29.127333 28.620259 28.113185 27.606111 27.099037 26.591963 26.084889 25.577815 25.070741 24.563667 24.056593 23.549519 23.042444 22.53537 22.028296 21.521222 21.014148 20.507074 Z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p14ec4303b4)"
+                 id="g108">
+                <use
+                   xlink:href="#kde_m2d3b64c8f6"
+                   x="0"
+                   y="200"
+                   style="fill:#cc2222;fill-opacity:0.75"
+                   id="use108" />
+              </g>
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_2">
+              <defs
+                 id="defs109">
+                <path
+                   id="kde_m03daddc168"
+                   d="m 141.69778,-42 v -47.772156 l 0.50707,-1.166561 0.50708,-1.148184 0.50707,-1.127209 0.50707,-1.103858 0.50708,-1.078352 0.50707,-1.050908 0.50708,-1.021734 0.50707,-0.991034 0.50708,-0.959016 0.50707,-0.925878 0.50707,-0.89184 0.50708,-0.8571 0.50707,-0.82187 0.50708,-0.78634 0.50707,-0.7507 0.50707,-0.71509 0.50708,-0.6796 0.50707,-0.64431 0.50708,-0.6092 0.50707,-0.57419 0.50707,-0.53915 0.50708,-0.50388 0.50707,-0.4681 0.50708,-0.43152 0.50707,-0.3938 0.50707,-0.3546 0.50708,-0.31356 0.50707,-0.27038 0.50708,-0.22477 0.50707,-0.17654 0.50708,-0.12551 0.50707,-0.0717 0.50707,-0.0151 0.50708,0.0441 0.50707,0.10564 0.50708,0.16909 0.50707,0.23396 0.50707,0.29966 0.50708,0.36552 0.50707,0.43079 0.50708,0.4947 0.50707,0.55646 0.50708,0.61533 0.50707,0.67062 0.50707,0.7217 0.50708,0.76809 0.50707,0.80938 0.50708,0.84534 0.50707,0.87587 0.50707,0.90093 0.50708,0.92065 0.50707,0.9352 0.50708,0.944787 0.50707,0.949658 0.50707,0.950033 0.50708,0.9461 0.50707,0.938 0.50708,0.925819 0.50707,0.909587 0.50707,0.889301 0.50708,0.864931 0.50707,0.836447 0.50708,0.803853 0.50707,0.767193 0.50707,0.726591 0.50708,0.682251 0.50707,0.634472 0.50708,0.583648 0.50707,0.530261 0.50707,0.474867 0.50708,0.418088 0.50707,0.360577 0.50708,0.303011 0.50707,0.246069 0.50707,0.190404 0.50708,0.136638 0.50707,0.08534 0.50708,0.03704 0.50707,-0.0078 0.50708,-0.04887 0.50707,-0.08578 0.50707,-0.118311 0.50708,-0.146293 0.50707,-0.169629 0.50708,-0.188286 0.50707,-0.20231 0.50707,-0.211812 0.50708,-0.216981 0.50707,-0.218081 0.50708,-0.215454 0.50707,-0.209519 0.50707,-0.200784 V -42 v 0 h -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p14ec4303b4)"
+                 id="g109">
+                <use
+                   xlink:href="#kde_m03daddc168"
+                   x="0"
+                   y="200"
+                   style="fill:#bbbbbb;fill-opacity:0.75"
+                   id="use109" />
+              </g>
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_3">
+              <defs
+                 id="defs110">
+                <path
+                   id="kde_mdc9bae5093"
+                   d="m 188.85567,-42 v -45.095464 l 0.50707,-0.177343 0.50708,-0.164062 0.50707,-0.150825 0.50707,-0.138538 0.50708,-0.128171 0.50707,-0.120751 0.50708,-0.117346 0.50707,-0.119049 0.50707,-0.12696 0.50708,-0.142161 0.50707,-0.165685 0.50708,-0.198492 0.50707,-0.241422 0.50708,-0.295159 0.50707,-0.360187 0.50707,-0.436731 0.50708,-0.52472 0.50707,-0.623725 0.50708,-0.732923 0.50707,-0.851052 0.50707,-0.976382 0.50708,-1.106707 0.50707,-1.239338 0.50708,-1.371137 0.50707,-1.498563 0.50707,-1.617737 0.50708,-1.72455 0.50707,-1.81478 0.50708,-1.88422 0.50707,-1.92883 0.50707,-1.94494 0.50708,-1.92938 0.50707,-1.87958 0.50708,-1.79386 0.50707,-1.67138 0.50707,-1.51231 0.50708,-1.31791 0.50707,-1.09042 0.50708,-0.83314 0.50707,-0.55024 0.50708,-0.24677 0.50707,0.0717 0.50707,0.39889 0.50708,0.72858 0.50707,1.05432 0.50708,1.36984 0.50707,1.66926 0.50707,1.94728 0.50708,2.19926 0.50707,2.42142 0.50708,2.61087 0.50707,2.76571 0.50707,2.88498 0.50708,2.96869 0.50707,3.017674 0.50708,3.033583 0.50707,3.01872 0.50707,2.975921 0.50708,2.908422 0.50707,2.819718 0.50708,2.713422 0.50707,2.593153 0.50708,2.462419 0.50707,2.324526 0.50707,2.182507 0.50708,2.039076 0.50707,1.896585 0.50708,1.757022 0.50707,1.622 0.50707,1.492788 0.50708,1.370317 0.50707,1.255228 0.50708,1.147903 0.50707,1.048498 0.50707,0.95699 0.50708,0.873206 0.50707,0.796866 0.50708,0.727597 0.50707,0.664977 0.50707,0.608546 0.50708,0.55782 0.50707,0.512322 0.50708,0.471571 0.50707,0.435111 0.50707,0.402502 0.50708,0.373334 0.50707,0.347223 0.50708,0.323818 0.50707,0.302801 0.50708,0.28388 0.50707,0.266798 0.50707,0.251326 0.50708,0.237261 0.50707,0.224429 0.50708,0.212676 0.50707,0.201871 0.50707,0.191905 0.50708,0.182679 0.50707,0.174114 0.50708,0.166141 0.50707,0.1587 0.50707,0.151742 0.50708,0.14522 0.50707,0.139095 0.50708,0.13333 0.50707,0.127891 0.50707,0.122743 0.50708,0.117854 0.50707,0.113194 0.50708,0.108733 0.50707,0.104441 0.50707,0.100292 0.50708,0.09626 0.50707,0.09233 0.50708,0.08849 0.50707,0.08472 0.50708,0.081 0.50707,0.07735 0.50707,0.07376 0.50708,0.07024 0.50707,0.06678 0.50708,0.0634 0.50707,0.0601 0.50707,0.05689 0.50708,0.05378 0.50707,0.05076 0.50708,0.04785 0.50707,0.04506 0.50707,0.04237 0.50708,0.03979 0.50707,0.03733 0.50708,0.03498 0.50707,0.03275 0.50707,0.03064 0.50708,0.02865 0.50707,0.02678 0.50708,0.02503 0.50707,0.02339 0.50708,0.02187 0.50707,0.02046 0.50707,0.01916 0.50708,0.01794 0.50707,0.01682 0.50708,0.01577 0.50707,0.0148 0.50707,0.01388 0.50708,0.01302 0.50707,0.01221 0.50708,0.01144 0.50707,0.01071 0.50707,0.01002 0.50708,0.0094 0.50707,0.0088 0.50708,0.0082 0.50707,0.0077 0.50707,0.0072 0.50708,0.0067 0.50707,0.0063 0.50708,0.0059 0.50707,0.0055 0.50707,0.0052 0.50708,0.0049 0.50707,0.0046 0.50708,0.0044 0.50707,0.0041 0.50708,0.0039 0.50707,0.0037 0.50707,0.0036 0.50708,0.0034 0.50707,0.0033 0.50708,0.0031 0.50707,0.003 0.50707,0.0029 0.50708,0.0029 0.50707,0.0028 0.50708,0.0027 0.50707,0.0026 0.50707,0.0025 0.50708,0.0025 0.50707,0.0024 0.50708,0.0023 0.50707,0.0021 0.50707,0.002 0.50708,0.0018 0.50707,0.0017 0.50708,0.0015 0.50707,0.0014 0.50708,0.0012 0.50707,10e-4 0.50707,8.98e-4 0.50708,7.59e-4 0.50707,6.38e-4 0.50708,5.34e-4 0.50707,4.49e-4 0.50707,3.84e-4 0.50708,3.39e-4 0.50707,3.14e-4 0.50708,3.06e-4 0.50707,3.15e-4 0.50707,3.38e-4 0.50708,3.72e-4 0.50707,4.14e-4 0.50708,4.63e-4 0.50707,5.14e-4 0.50707,5.67e-4 0.50708,6.18e-4 0.50707,6.65e-4 0.50708,7.06e-4 0.50707,7.38e-4 0.50707,7.62e-4 0.50708,7.75e-4 0.50707,7.75e-4 0.50708,7.64e-4 0.50707,7.4e-4 0.50708,7.03e-4 0.50707,6.56e-4 0.50707,5.97e-4 0.50708,5.3e-4 0.50707,4.57e-4 0.50708,3.78e-4 0.50707,2.99e-4 0.50707,2.19e-4 0.50708,1.41e-4 0.50707,7e-5 0.50708,4e-6 0.50707,-5.2e-5 0.50707,-9.9e-5 0.50708,-1.34e-4 0.50707,-1.59e-4 0.50708,-1.72e-4 0.50707,-1.74e-4 0.50707,-1.67e-4 0.50708,-1.49e-4 0.50707,-1.24e-4 0.50708,-9.4e-5 0.50707,-5.9e-5 0.50707,-2.1e-5 0.50708,1.7e-5 0.50707,5.3e-5 0.50708,8.7e-5 0.50707,1.17e-4 0.50708,1.42e-4 0.50707,1.61e-4 0.50707,1.74e-4 0.50708,1.83e-4 0.50707,1.86e-4 0.50708,1.87e-4 0.50707,1.83e-4 0.50707,1.81e-4 0.50708,1.77e-4 0.50707,1.75e-4 0.50708,1.75e-4 0.50707,1.79e-4 0.50708,1.84e-4 0.50707,1.93e-4 0.50707,2.04e-4 0.50708,2.16e-4 0.50707,2.29e-4 0.50708,2.41e-4 0.50707,2.52e-4 0.50707,2.6e-4 0.50708,2.65e-4 0.50707,2.65e-4 0.50708,2.62e-4 0.50707,2.54e-4 0.50707,2.43e-4 V -42 v 0 h -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p14ec4303b4)"
+                 id="g110">
+                <use
+                   xlink:href="#kde_mdc9bae5093"
+                   x="0"
+                   y="200"
+                   style="fill:#22aa44;fill-opacity:0.75"
+                   id="use110" />
+              </g>
+            </g>
+            <g
+               id="kde_matplotlib.axis_1">
+              <g
+                 id="kde_xtick_1">
+                <g
+                   id="kde_line2d_1">
+                  <defs
+                     id="defs111">
+                    <path
+                       id="kde_m48372fd0bb"
+                       d="M 0,0 V 3.5"
+                       style="stroke:#000000;stroke-width:0.8" />
+                  </defs>
+                  <g
+                     id="g111">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="50.373737"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use111" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_1">
+                  <!-- −4 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,45.951081,169.55906)"
+                     id="g113">
+                    <defs
+                       id="defs112">
+                      <path
+                         id="kde_DejaVuSans-2212"
+                         d="M 678,2272 H 4684 V 1741 H 678 Z"
+                         transform="scale(0.015625)" />
+                      <path
+                         id="kde_DejaVuSans-34"
+                         d="M 2419,4116 825,1625 h 1594 z m -166,550 h 794 V 1625 h 666 V 1100 H 3047 V 0 H 2419 V 1100 H 313 v 609 z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-2212"
+                       id="use112" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-34"
+                       transform="translate(83.789062)"
+                       id="use113" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_2">
+                <g
+                   id="kde_line2d_2">
+                  <g
+                     id="g114">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="111.12121"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use114" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_2">
+                  <!-- −2 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,106.69856,169.55906)"
+                     id="g116">
+                    <defs
+                       id="defs114">
+                      <path
+                         id="kde_DejaVuSans-32"
+                         d="M 1228,531 H 3431 V 0 H 469 v 531 q 359,372 979,998 621,627 780,809 303,340 423,576 121,236 121,464 0,372 -261,606 -261,235 -680,235 -297,0 -627,-103 -329,-103 -704,-313 v 638 q 381,153 712,231 332,78 607,78 725,0 1156,-363 431,-362 431,-968 0,-288 -108,-546 -107,-257 -392,-607 -78,-91 -497,-524 Q 1991,1309 1228,531 Z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-2212"
+                       id="use115" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-32"
+                       transform="translate(83.789062)"
+                       id="use116" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_3">
+                <g
+                   id="kde_line2d_3">
+                  <g
+                     id="g117">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="171.86868"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use117" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_3">
+                  <!-- 0 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,169.95994,169.55906)"
+                     id="g118">
+                    <defs
+                       id="defs117">
+                      <path
+                         id="kde_DejaVuSans-30"
+                         d="m 2034,4250 q -487,0 -733,-480 -245,-479 -245,-1442 0,-959 245,-1439 246,-480 733,-480 491,0 736,480 246,480 246,1439 0,963 -246,1442 -245,480 -736,480 z m 0,500 q 785,0 1199,-621 414,-620 414,-1801 0,-1178 -414,-1799 -414,-620 -1199,-620 -784,0 -1198,620 -414,621 -414,1799 0,1181 414,1801 414,621 1198,621 z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use118" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_4">
+                <g
+                   id="kde_line2d_4">
+                  <g
+                     id="g119">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="232.61617"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use119" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_4">
+                  <!-- 2 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,230.70741,169.55906)"
+                     id="g120">
+                    <use
+                       xlink:href="#kde_DejaVuSans-32"
+                       id="use120" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_5">
+                <g
+                   id="kde_line2d_5">
+                  <g
+                     id="g121">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="293.36365"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use121" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_5">
+                  <!-- 4 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,291.45489,169.55906)"
+                     id="g122">
+                    <use
+                       xlink:href="#kde_DejaVuSans-34"
+                       id="use122" />
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g
+               id="kde_matplotlib.axis_2">
+              <g
+                 id="kde_ytick_1">
+                <g
+                   id="kde_line2d_6">
+                  <defs
+                     id="defs122">
+                    <path
+                       id="kde_mc29a7a3aeb"
+                       d="M 0,0 H 3.5"
+                       style="stroke:#000000;stroke-width:0.8" />
+                  </defs>
+                  <g
+                     id="g123">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use123" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_6">
+                  <!-- 0.0 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,160.27953)"
+                     id="g126">
+                    <defs
+                       id="defs123">
+                      <path
+                         id="kde_DejaVuSans-2e"
+                         d="m 684,794 h 660 V 0 H 684 Z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use124" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use125" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       transform="translate(95.410156)"
+                       id="use126" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_ytick_2">
+                <g
+                   id="kde_line2d_7">
+                  <g
+                     id="g127">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="140.12648"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use127" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_7">
+                  <!-- 0.1 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,142.40601)"
+                     id="g130">
+                    <defs
+                       id="defs127">
+                      <path
+                         id="kde_DejaVuSans-31"
+                         d="M 794,531 H 1825 V 4091 L 703,3866 v 575 l 1116,225 h 631 V 531 H 3481 V 0 H 794 Z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use128" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use129" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-31"
+                       transform="translate(95.410156)"
+                       id="use130" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_ytick_3">
+                <g
+                   id="kde_line2d_8">
+                  <g
+                     id="g131">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="122.25297"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use131" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_8">
+                  <!-- 0.2 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,124.5325)"
+                     id="g134">
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use132" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use133" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-32"
+                       transform="translate(95.410156)"
+                       id="use134" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_ytick_4">
+                <g
+                   id="kde_line2d_9">
+                  <g
+                     id="g135">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="104.37945"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use135" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_9">
+                  <!-- 0.3 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,106.65898)"
+                     id="g138">
+                    <defs
+                       id="defs135">
+                      <path
+                         id="kde_DejaVuSans-33"
+                         d="m 2597,2516 q 453,-97 707,-404 255,-306 255,-756 0,-690 -475,-1069 -475,-378 -1350,-378 -293,0 -604,58 -311,58 -642,174 v 609 q 262,-153 574,-231 313,-78 654,-78 593,0 904,234 311,234 311,681 0,413 -289,645 -289,233 -804,233 h -544 v 519 h 569 q 465,0 712,186 247,186 247,536 0,359 -255,551 -254,193 -729,193 -260,0 -557,-57 -297,-56 -653,-174 v 562 q 360,100 674,150 314,50 592,50 719,0 1137,-327 419,-326 419,-882 0,-388 -222,-655 -222,-267 -631,-370 z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use136" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use137" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-33"
+                       transform="translate(95.410156)"
+                       id="use138" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_ytick_5">
+                <g
+                   id="kde_line2d_10">
+                  <g
+                     id="g139">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="86.505936"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use139" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_10">
+                  <!-- 0.4 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,88.785465)"
+                     id="g142">
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use140" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use141" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-34"
+                       transform="translate(95.410156)"
+                       id="use142" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_ytick_6">
+                <g
+                   id="kde_line2d_11">
+                  <g
+                     id="g143">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="68.632416"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use143" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_11">
+                  <!-- 0.5 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,70.911948)"
+                     id="g146">
+                    <defs
+                       id="defs143">
+                      <path
+                         id="kde_DejaVuSans-35"
+                         d="M 691,4666 H 3169 V 4134 H 1269 V 2991 q 137,47 274,70 138,23 276,23 781,0 1237,-428 457,-428 457,-1159 Q 3513,744 3044,326 2575,-91 1722,-91 1428,-91 1123,-41 819,9 494,109 v 635 q 281,-153 581,-228 300,-75 634,-75 541,0 856,284 316,284 316,772 0,487 -316,771 -315,285 -856,285 -253,0 -505,-56 -251,-56 -513,-175 z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use144" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use145" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-35"
+                       transform="translate(95.410156)"
+                       id="use146" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_ytick_7">
+                <g
+                   id="kde_line2d_12">
+                  <g
+                     id="g147">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="50.7589"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use147" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_12">
+                  <!-- 0.6 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,53.038431)"
+                     id="g150">
+                    <defs
+                       id="defs147">
+                      <path
+                         id="kde_DejaVuSans-36"
+                         d="m 2113,2584 q -425,0 -674,-291 -248,-290 -248,-796 0,-503 248,-796 249,-292 674,-292 425,0 673,292 248,293 248,796 0,506 -248,796 -248,291 -673,291 z m 1253,1979 v -575 q -238,112 -480,171 -242,60 -480,60 -625,0 -955,-422 -329,-422 -376,-1275 184,272 462,417 279,145 613,145 703,0 1111,-427 408,-426 408,-1160 0,-719 -425,-1154 -425,-434 -1131,-434 -810,0 -1238,620 -428,621 -428,1799 0,1106 525,1764 525,658 1409,658 238,0 480,-47 242,-47 505,-140 z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use148" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use149" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-36"
+                       transform="translate(95.410156)"
+                       id="use150" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_ytick_8">
+                <g
+                   id="kde_line2d_13">
+                  <g
+                     id="g151">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="32.885384"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use151" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_13">
+                  <!-- 0.7 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,35.164915)"
+                     id="g154">
+                    <defs
+                       id="defs151">
+                      <path
+                         id="kde_DejaVuSans-37"
+                         d="M 525,4666 H 3525 V 4397 L 1831,0 H 1172 L 2766,4134 H 525 Z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use152" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use153" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-37"
+                       transform="translate(95.410156)"
+                       id="use154" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_ytick_9">
+                <g
+                   id="kde_line2d_14">
+                  <g
+                     id="g155">
+                    <use
+                       xlink:href="#kde_mc29a7a3aeb"
+                       x="20"
+                       y="15.011867"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use155" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_14">
+                  <!-- 0.8 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,8.458125,17.291398)"
+                     id="g158">
+                    <defs
+                       id="defs155">
+                      <path
+                         id="kde_DejaVuSans-38"
+                         d="m 2034,2216 q -450,0 -708,-241 -257,-241 -257,-662 0,-422 257,-663 258,-241 708,-241 450,0 709,242 260,243 260,662 0,421 -258,662 -257,241 -711,241 z m -631,268 q -406,100 -633,378 -226,279 -226,679 0,559 398,884 399,325 1092,325 697,0 1094,-325 397,-325 397,-884 0,-400 -227,-679 -226,-278 -629,-378 456,-106 710,-416 255,-309 255,-755 Q 3634,634 3220,271 2806,-91 2034,-91 1263,-91 848,271 434,634 434,1313 q 0,446 256,755 257,310 713,416 z m -231,997 q 0,-362 226,-565 227,-203 636,-203 407,0 636,203 230,203 230,565 0,363 -230,566 -229,203 -636,203 -409,0 -636,-203 -226,-203 -226,-566 z"
+                         transform="scale(0.015625)" />
+                    </defs>
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use156" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-2e"
+                       transform="translate(63.623047)"
+                       id="use157" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-38"
+                       transform="translate(95.410156)"
+                       id="use158" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_text_15">
+                <!-- Density -->
+                <g
+                   transform="matrix(0,-0.07,-0.07,0,4.002344,97.306016)"
+                   id="g165">
+                  <defs
+                     id="defs158">
+                    <path
+                       id="kde_DejaVuSans-44"
+                       d="M 1259,4147 V 519 h 763 q 966,0 1414,437 448,438 448,1382 0,937 -448,1373 -448,436 -1414,436 z m -631,519 h 1297 q 1356,0 1990,-564 635,-564 635,-1764 Q 4550,1131 3912,565 3275,0 1925,0 H 628 Z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-65"
+                       d="M 3597,1894 V 1613 H 953 q 38,-594 358,-905 320,-311 892,-311 331,0 642,81 311,81 618,244 V 178 Q 3153,47 2828,-22 2503,-91 2169,-91 1331,-91 842,396 353,884 353,1716 q 0,859 464,1363 464,505 1252,505 706,0 1117,-455 411,-454 411,-1235 z m -575,169 q -6,471 -264,752 -258,282 -683,282 -481,0 -770,-272 -289,-272 -333,-766 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-6e"
+                       d="M 3513,2113 V 0 h -575 v 2094 q 0,497 -194,743 -194,247 -581,247 -466,0 -735,-297 -269,-296 -269,-809 V 0 H 581 v 3500 h 578 v -544 q 207,316 486,472 280,156 646,156 603,0 912,-373 310,-373 310,-1098 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-73"
+                       d="m 2834,3397 v -544 q -243,125 -506,187 -262,63 -544,63 -428,0 -642,-131 -214,-131 -214,-394 0,-200 153,-314 153,-114 616,-217 l 197,-44 q 612,-131 870,-370 258,-239 258,-667 0,-488 -386,-773 Q 2250,-91 1575,-91 1294,-91 989,-36 684,19 347,128 v 594 q 319,-166 628,-249 309,-82 613,-82 406,0 624,139 219,139 219,392 0,234 -158,359 -157,125 -692,241 l -200,47 q -534,112 -772,345 -237,233 -237,639 0,494 350,762 350,269 994,269 318,0 599,-47 282,-46 519,-140 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-69"
+                       d="m 603,3500 h 575 V 0 H 603 Z m 0,1363 h 575 V 4134 H 603 Z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-74"
+                       d="M 1172,4494 V 3500 H 2356 V 3053 H 1172 V 1153 q 0,-428 117,-550 117,-122 477,-122 h 590 V 0 H 1766 Q 1100,0 847,248 594,497 594,1153 V 3053 H 172 v 447 h 422 v 994 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-79"
+                       d="m 2059,-325 q -243,-625 -475,-815 -231,-191 -618,-191 H 506 v 481 h 338 q 237,0 368,113 132,112 291,531 L 1606,56 191,3500 H 800 L 1894,763 2988,3500 h 609 z"
+                       transform="scale(0.015625)" />
+                  </defs>
+                  <use
+                     xlink:href="#kde_DejaVuSans-44"
+                     id="use159" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-65"
+                     transform="translate(77.001953)"
+                     id="use160" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-6e"
+                     transform="translate(138.52539)"
+                     id="use161" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-73"
+                     transform="translate(201.9043)"
+                     id="use162" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-69"
+                     transform="translate(254.00391)"
+                     id="use163" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-74"
+                     transform="translate(281.78711)"
+                     id="use164" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-79"
+                     transform="translate(320.99609)"
+                     id="use165" />
+                </g>
+              </g>
+            </g>
+            <g
+               id="kde_line2d_15">
+              <path
+                 d="m 20,157.99839 49.69326,-0.13182 16.22637,-0.29948 7.099037,-0.3298 5.070741,-0.43262 4.056592,-0.56798 3.04245,-0.64358 3.04244,-0.89391 2.53537,-0.98855 2.53537,-1.26261 2.0283,-1.23275 2.53537,-1.83221 2.53537,-2.15721 2.53537,-2.49737 2.02829,-2.28095 2.0283,-2.58479 2.0283,-2.94011 2.02829,-3.33932 2.0283,-3.77002 2.0283,-4.20333 2.53537,-5.76322 6.08488,-14.16473 2.0283,-4.14203 2.0283,-3.633831 1.52122,-2.358912 1.52122,-2.038998 1.52122,-1.722541 1.52123,-1.403495 1.52122,-1.061963 1.01415,-0.495154 1.01415,-0.302049 1.01414,-0.08676 1.01415,0.149755 1.01415,0.403044 1.01415,0.665188 1.01415,0.925486 1.01415,1.171796 1.52122,2.160401 2.02829,3.431523 6.59197,11.81437 1.52122,2.17603 1.52122,1.74838 1.01415,0.89296 1.01415,0.66358 1.01414,0.43648 1.01415,0.22198 1.01415,0.0292 1.52122,-0.25296 1.52123,-0.50421 5.57781,-2.157 5.07074,-1.49858 1.01415,-0.65534 1.01415,-0.96146 1.01415,-1.35664 1.01414,-1.82744 1.01415,-2.34604 1.01415,-2.8697 1.52122,-5.157071 3.54952,-13.032186 1.01415,-2.830226 1.01415,-1.923552 0.50707,-0.550244 0.50708,-0.246768 0.50707,0.07165 0.50707,0.39889 0.50708,0.728584 0.50707,1.054315 1.01415,3.039102 1.01415,4.146542 1.52122,7.797993 5.57782,31.396701 1.52122,6.54611 1.52122,5.27561 1.01415,2.8631 1.01415,2.40313 1.01414,2.00549 1.01415,1.67007 1.52122,2.00112 1.52123,1.54172 1.52122,1.21094 2.0283,1.25773 2.02829,0.97981 2.53537,0.96324 3.04245,0.89423 3.54951,0.79515 4.0566,0.66416 4.05659,0.44461 5.07074,0.32171 7.09904,0.20748 13.18392,0.11995 30.42445,0.0367 14.19807,0.005 v 0"
+                 clip-path="url(#kde_p14ec4303b4)"
+                 style="fill:none;stroke:#222222;stroke-width:0.8;stroke-linecap:square"
+                 id="path165" />
+            </g>
+            <g
+               id="kde_line2d_16">
+              <path
+                 d="M 141.49495,158 V 10"
+                 clip-path="url(#kde_p14ec4303b4)"
+                 style="fill:none;stroke:#555555;stroke-width:0.8;stroke-dasharray:2.96, 1.28;stroke-dashoffset:0;stroke-opacity:0.85"
+                 id="path166" />
+            </g>
+            <g
+               id="kde_line2d_17">
+              <path
+                 d="M 188.57424,158 V 10"
+                 clip-path="url(#kde_p14ec4303b4)"
+                 style="fill:none;stroke:#555555;stroke-width:0.8;stroke-dasharray:2.96, 1.28;stroke-dashoffset:0;stroke-opacity:0.85"
+                 id="path167" />
+            </g>
+            <g
+               id="kde_patch_3">
+              <path
+                 d="M 20,158 V 10"
+                 style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+                 id="path168" />
+            </g>
+            <g
+               id="kde_patch_4">
+              <path
+                 d="M 20,158 H 323.73737"
+                 style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+                 id="path169" />
+            </g>
+            <g
+               id="kde_text_16">
+              <g
+                 id="kde_patch_5">
+                <path
+                   d="m 133.91573,74.134915 h 15.15844 V 66.28804 h -15.15844 z"
+                   style="fill:#ffffff"
+                   id="path170" />
+              </g>
+              <!-- -1.0 -->
+              <g
+                 style="fill:#222222"
+                 transform="matrix(0.06,0,0,-0.06,134.93573,71.867103)"
+                 id="g173">
+                <defs
+                   id="defs170">
+                  <path
+                     id="kde_DejaVuSans-Bold-2d"
+                     d="M 347,2297 H 2309 V 1388 H 347 Z"
+                     transform="scale(0.015625)" />
+                  <path
+                     id="kde_DejaVuSans-Bold-31"
+                     d="M 750,831 H 1813 V 3847 L 722,3622 v 819 l 1084,225 H 2950 V 831 H 4013 V 0 H 750 Z"
+                     transform="scale(0.015625)" />
+                  <path
+                     id="kde_DejaVuSans-Bold-2e"
+                     d="M 653,1209 H 1778 V 0 H 653 Z"
+                     transform="scale(0.015625)" />
+                  <path
+                     id="kde_DejaVuSans-Bold-30"
+                     d="m 2944,2338 q 0,875 -164,1232 -164,358 -552,358 -387,0 -553,-358 -166,-357 -166,-1232 0,-885 166,-1248 166,-362 553,-362 385,0 550,362 166,363 166,1248 z m 1203,-10 Q 4147,1169 3647,539 3147,-91 2228,-91 1306,-91 806,539 306,1169 306,2328 q 0,1163 500,1792 500,630 1422,630 919,0 1419,-630 500,-629 500,-1792 z"
+                     transform="scale(0.015625)" />
+                </defs>
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2d"
+                   id="use170" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-31"
+                   transform="translate(41.503906)"
+                   id="use171" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2e"
+                   transform="translate(111.08398)"
+                   id="use172" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-30"
+                   transform="translate(149.07227)"
+                   id="use173" />
+              </g>
+            </g>
+            <g
+               id="kde_text_17">
+              <g
+                 id="kde_patch_6">
+                <path
+                   d="M 180.15268,74.134915 H 196.9958 V 66.28804 h -16.84312 z"
+                   style="fill:#ffffff"
+                   id="path173" />
+              </g>
+              <!-- 0.55 -->
+              <g
+                 style="fill:#222222"
+                 transform="matrix(0.06,0,0,-0.06,181.17268,71.867103)"
+                 id="g177">
+                <defs
+                   id="defs173">
+                  <path
+                     id="kde_DejaVuSans-Bold-35"
+                     d="M 678,4666 H 3669 V 3781 H 1638 v -722 q 137,38 276,58 139,21 289,21 853,0 1328,-427 475,-427 475,-1189 0,-756 -517,-1185 -517,-428 -1436,-428 -397,0 -786,77 -389,77 -773,233 v 947 q 381,-219 723,-329 342,-109 646,-109 437,0 688,214 252,214 252,580 0,369 -252,581 -251,213 -688,213 -260,0 -554,-68 -293,-67 -631,-207 z"
+                     transform="scale(0.015625)" />
+                </defs>
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-30"
+                   id="use174" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2e"
+                   transform="translate(69.580078)"
+                   id="use175" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-35"
+                   transform="translate(107.56836)"
+                   id="use176" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-35"
+                   transform="translate(177.14844)"
+                   id="use177" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="kde_axes_2">
+            <g
+               id="kde_patch_7">
+              <path
+                 d="M 353.13131,158 H 656.86869 V 10 H 353.13131 Z"
+                 style="fill:#ffffff"
+                 id="path177" />
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_4">
+              <defs
+                 id="defs177">
+                <path
+                   id="kde_mfa5486ccdb"
+                   d="m 353.13131,-42 v -2.6e-5 l 0.50708,-7e-6 0.50707,-9e-6 0.50707,-9e-6 0.50708,-1.1e-5 0.50707,-1.3e-5 0.50708,-1.5e-5 0.50707,-1.6e-5 0.50708,-1.7e-5 0.50707,-1.9e-5 0.50707,-2.1e-5 0.50708,-2.1e-5 0.50707,-2.3e-5 0.50708,-2.3e-5 0.50707,-2.4e-5 0.50707,-2.4e-5 0.50708,-2.5e-5 0.50707,-2.5e-5 0.50708,-2.6e-5 0.50707,-2.7e-5 0.50707,-2.7e-5 0.50708,-2.9e-5 0.50707,-3.1e-5 0.50708,-3.2e-5 0.50707,-3.6e-5 0.50707,-3.8e-5 0.50708,-4.1e-5 0.50707,-4.4e-5 0.50708,-4.9e-5 0.50707,-5.1e-5 0.50708,-5.5e-5 0.50707,-5.8e-5 0.50707,-6.1e-5 0.50708,-6.4e-5 0.50707,-6.5e-5 0.50708,-6.8e-5 0.50707,-6.8e-5 0.50707,-7e-5 0.50708,-7.1e-5 0.50707,-7.2e-5 0.50708,-7.3e-5 0.50707,-7.5e-5 0.50707,-7.7e-5 0.50708,-7.9e-5 0.50707,-8.3e-5 0.50708,-8.8e-5 0.50707,-9.2e-5 0.50707,-9.9e-5 0.50708,-1.05e-4 0.50707,-1.13e-4 0.50708,-1.2e-4 0.50707,-1.28e-4 0.50707,-1.36e-4 0.50708,-1.44e-4 0.50707,-1.5e-4 0.50708,-1.56e-4 0.50707,-1.61e-4 0.50708,-1.64e-4 0.50707,-1.66e-4 0.50707,-1.67e-4 0.50708,-1.65e-4 0.50707,-1.63e-4 0.50708,-1.6e-4 0.50707,-1.55e-4 0.50707,-1.52e-4 0.50708,-1.47e-4 0.50707,-1.44e-4 0.50708,-1.41e-4 0.50707,-1.4e-4 0.50707,-1.42e-4 0.50708,-1.45e-4 0.50707,-1.51e-4 0.50708,-1.6e-4 0.50707,-1.71e-4 0.50707,-1.85e-4 0.50708,-2.03e-4 0.50707,-2.23e-4 0.50708,-2.47e-4 0.50707,-2.74e-4 0.50707,-3.04e-4 0.50708,-3.39e-4 0.50707,-3.76e-4 0.50708,-4.19e-4 0.50707,-4.65e-4 0.50708,-5.18e-4 0.50707,-5.74e-4 0.50707,-6.36e-4 0.50708,-7.04e-4 0.50707,-7.76e-4 0.50708,-8.53e-4 0.50707,-9.34e-4 0.50707,-10e-4 0.50708,-0.0011 0.50707,-0.0012 0.50708,-0.0013 0.50707,-0.0014 0.50707,-0.0015 0.50708,-0.0016 0.50707,-0.0017 0.50708,-0.0018 0.50707,-0.0019 0.50707,-0.002 0.50708,-0.0021 0.50707,-0.0022 0.50708,-0.0023 0.50707,-0.0024 0.50708,-0.0026 0.50707,-0.0027 0.50707,-0.0029 0.50708,-0.0031 0.50707,-0.0033 0.50708,-0.0035 0.50707,-0.0038 0.50707,-0.004 0.50708,-0.0043 0.50707,-0.0046 0.50708,-0.0049 0.50707,-0.0052 0.50707,-0.0056 0.50708,-0.006 0.50707,-0.0063 0.50708,-0.0067 0.50707,-0.0071 0.50707,-0.0075 0.50708,-0.0079 0.50707,-0.0084 0.50708,-0.0088 0.50707,-0.0093 0.50707,-0.0098 0.50708,-0.01031 0.50707,-0.01087 0.50708,-0.01146 0.50707,-0.01209 0.50708,-0.01277 0.50707,-0.0135 0.50707,-0.01429 0.50708,-0.01514 0.50707,-0.01605 0.50708,-0.01703 0.50707,-0.01807 0.50707,-0.01918 0.50708,-0.02035 0.50707,-0.02159 0.50708,-0.0229 0.50707,-0.02428 0.50708,-0.02572 0.50707,-0.02724 0.50707,-0.02883 0.50708,-0.03049 0.50707,-0.03224 0.50708,-0.03408 0.50707,-0.03602 0.50707,-0.03806 0.50708,-0.04022 0.50707,-0.04251 0.50708,-0.04494 0.50707,-0.04753 0.50707,-0.05028 0.50708,-0.05322 0.50707,-0.05637 0.50708,-0.05973 0.50707,-0.06333 0.50707,-0.06719 0.50708,-0.07132 0.50707,-0.07575 0.50708,-0.08049 0.50707,-0.08557 0.50707,-0.091 0.50708,-0.0968 0.50707,-0.102993 0.50708,-0.109597 0.50707,-0.116629 0.50707,-0.124103 0.50708,-0.132038 0.50707,-0.140445 0.50708,-0.149338 0.50707,-0.15873 0.50707,-0.168629 0.50708,-0.179045 0.50707,-0.189983 0.50708,-0.201449 0.50707,-0.213442 0.50708,-0.225966 0.50707,-0.239014 0.50707,-0.252582 0.50708,-0.266659 0.50707,-0.281236 0.50708,-0.296295 0.50707,-0.311818 0.50707,-0.327783 0.50708,-0.344162 0.50707,-0.360926 0.50708,-0.378039 0.50707,-0.395464 0.50708,-0.413154 0.50707,-0.431063 0.50707,-0.449137 0.50708,-0.467318 0.50707,-0.485545 0.50708,-0.503753 0.50707,-0.521873 0.50707,-0.539834 0.50708,-0.557565 0.50707,-0.57499 0.50708,-0.592041 0.50707,-0.608643 0.50707,-0.624729 0.50708,-0.640231 0.50707,-0.655086 0.50708,-0.669232 0.50707,-0.682614 0.50707,-0.695175 0.50708,-0.70686 0.50707,-0.717621 0.50708,-0.727402 0.50707,-0.736156 0.50707,-0.743828 0.50708,-0.750368 0.50707,-0.755724 0.50708,-0.759848 0.50707,-0.762692 0.50707,-0.764215 0.50708,-0.764381 0.50707,-0.763164 0.50708,-0.760549 0.50707,-0.756528 0.50707,-0.75111 0.50708,-0.744317 0.50707,-0.73618 0.50708,-0.726745 0.50707,-0.716072 0.50708,-0.704223 0.50707,-0.691276 0.50707,-0.677311 0.50708,-0.662415 0.50707,-0.646677 0.50708,-0.630191 0.50707,-0.61305 0.50707,-0.595349 0.50708,-0.577182 V -42 v 0 h -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p79daba998f)"
+                 id="g178">
+                <use
+                   xlink:href="#kde_mfa5486ccdb"
+                   x="0"
+                   y="200"
+                   style="fill:#cc2222;fill-opacity:0.75"
+                   id="use178" />
+              </g>
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_5">
+              <defs
+                 id="defs178">
+                <path
+                   id="kde_m95c45092ff"
+                   d="m 474.82909,-42 v -37.98502 l 0.50708,-0.539831 0.50707,-0.520832 0.50707,-0.501734 0.50708,-0.482626 0.50707,-0.463589 0.50708,-0.444698 0.50707,-0.426022 0.50708,-0.407622 0.50707,-0.389551 0.50707,-0.37185 0.50708,-0.354549 0.50707,-0.33767 0.50708,-0.32122 0.50707,-0.305196 0.50707,-0.289591 0.50708,-0.274381 0.50707,-0.259545 0.50708,-0.245051 0.50707,-0.230872 0.50707,-0.216979 0.50708,-0.203349 0.50707,-0.18997 0.50708,-0.176836 0.50707,-0.163963 0.50707,-0.151376 0.50708,-0.139128 0.50707,-0.127288 0.50708,-0.11595 0.50707,-0.105233 0.50707,-0.09528 0.50708,-0.08624 0.50707,-0.0783 0.50708,-0.07166 0.50707,-0.06652 0.50707,-0.06306 0.50708,-0.06149 0.50707,-0.06198 0.50708,-0.06467 0.50707,-0.06966 0.50707,-0.077 0.50708,-0.08667 0.50707,-0.09858 0.50708,-0.112556 0.50707,-0.128354 0.50708,-0.145639 0.50707,-0.164004 0.50707,-0.182983 0.50708,-0.20206 0.50707,-0.220707 0.50708,-0.238391 0.50707,-0.254622 0.50707,-0.268969 0.50708,-0.281092 0.50707,-0.290768 0.50708,-0.297904 0.50707,-0.302543 0.50708,-0.304865 0.50707,-0.30518 0.50707,-0.303892 0.50708,-0.301488 0.50707,-0.298487 0.50707,-0.295413 0.50708,-0.292752 0.50707,-0.290921 0.50708,-0.290239 0.50707,-0.290908 0.50708,-0.293009 0.50707,-0.296493 0.50707,-0.301204 0.50708,-0.306888 0.50707,-0.313219 0.50708,-0.319828 0.50707,-0.326329 0.50707,-0.332349 0.50708,-0.337541 0.50707,-0.341608 0.50708,-0.344319 0.50707,-0.345502 0.50707,-0.345056 0.50708,-0.342946 0.50707,-0.33917 0.50708,-0.33381 0.50707,-0.32693 0.50707,-0.31867 0.50708,-0.30913 0.50707,-0.29846 0.50708,-0.28675 0.50707,-0.27412 0.50707,-0.26064 0.50708,-0.24639 0.50707,-0.2314 0.50708,-0.2157 0.50707,-0.1993 0.50708,-0.18219 0.50707,-0.16435 0.50707,-0.14574 0.50708,-0.12636 0.50707,-0.10617 0.50708,-0.0852 0.50707,-0.0633 0.50707,-0.0407 0.50708,-0.0172 0.50707,0.007 0.50708,0.0318 0.50707,0.0573 0.50707,0.0832 V -42 v 0 h -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p79daba998f)"
+                 id="g179">
+                <use
+                   xlink:href="#kde_m95c45092ff"
+                   x="0"
+                   y="200"
+                   style="fill:#bbbbbb;fill-opacity:0.75"
+                   id="use179" />
+              </g>
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_6">
+              <defs
+                 id="defs179">
+                <path
+                   id="kde_mb1cdd7f119"
+                   d="m 529.08602,-42 v -62.61668 l 0.50707,0.13583 0.50708,0.16225 0.50707,0.18848 0.50708,0.21429 0.50707,0.23946 0.50707,0.26375 0.50708,0.28692 0.50707,0.30868 0.50708,0.32883 0.50707,0.34711 0.50707,0.36333 0.50708,0.37729 0.50707,0.38887 0.50708,0.39795 0.50707,0.40452 0.50707,0.408548 0.50708,0.410137 0.50707,0.409391 0.50708,0.406481 0.50707,0.401617 0.50707,0.395041 0.50708,0.387011 0.50707,0.377797 0.50708,0.367658 0.50707,0.356839 0.50707,0.345552 0.50708,0.333975 0.50707,0.322242 0.50708,0.310438 0.50707,0.298607 0.50707,0.286753 0.50708,0.274846 0.50707,0.262835 0.50708,0.25067 0.50707,0.238304 0.50708,0.225729 0.50707,0.212978 0.50707,0.200156 0.50708,0.187444 0.50707,0.175125 0.50708,0.163575 0.50707,0.15328 0.50707,0.144821 0.50708,0.138868 0.50707,0.136158 0.50708,0.137473 0.50707,0.143606 0.50707,0.155326 0.50708,0.173344 0.50707,0.198269 0.50708,0.230573 0.50707,0.270558 0.50708,0.318328 0.50707,0.373766 0.50707,0.436526 0.50708,0.506027 0.50707,0.581459 0.50707,0.661811 0.50708,0.74588 0.50707,0.83232 0.50708,0.919676 0.50707,1.006424 0.50708,1.091026 0.50707,1.17197 0.50707,1.247818 0.50708,1.317244 0.50707,1.379073 0.50708,1.432312 0.50707,1.476164 0.50707,1.510056 0.50708,1.533632 0.50707,1.546764 0.50708,1.549537 0.50707,1.542239 0.50707,1.52534 0.50708,1.499466 0.50707,1.465382 0.50708,1.42395 0.50707,1.376106 0.50707,1.322838 0.50708,1.265145 0.50707,1.20402 0.50708,1.14043 0.50707,1.075285 0.50708,1.009438 0.50707,0.943661 0.50707,0.87864 0.50708,0.814978 0.50707,0.753181 0.50708,0.693668 0.50707,0.636773 0.50707,0.582747 0.50708,0.531768 0.50707,0.483948 0.50708,0.439335 0.50707,0.397932 0.50707,0.359693 0.50708,0.324539 0.50707,0.292357 0.50708,0.263015 0.50707,0.236362 0.50708,0.212234 0.50707,0.190458 0.50707,0.170861 0.50708,0.153264 0.50707,0.137496 0.50707,0.123391 0.50708,0.110788 0.50707,0.09953 0.50708,0.08949 0.50707,0.08053 0.50708,0.07253 0.50707,0.06539 0.50707,0.05901 0.50708,0.0533 0.50707,0.04819 0.50708,0.04362 0.50707,0.03953 0.50707,0.03586 0.50708,0.03257 0.50707,0.02961 0.50708,0.02696 0.50707,0.02457 0.50708,0.02243 0.50707,0.0205 0.50707,0.01877 0.50708,0.0172 0.50707,0.01578 0.50707,0.01449 0.50708,0.01333 0.50707,0.01227 0.50708,0.0113 0.50707,0.01041 0.50708,0.0096 0.50707,0.0089 0.50707,0.0082 0.50708,0.0075 0.50707,0.007 0.50708,0.0064 0.50707,0.0059 0.50707,0.0055 0.50708,0.005 0.50707,0.0047 0.50708,0.0043 0.50707,0.004 0.50707,0.0037 0.50708,0.0034 0.50707,0.0031 0.50708,0.0029 0.50707,0.0027 0.50708,0.0025 0.50707,0.0023 0.50707,0.0022 0.50708,0.002 0.50707,0.0019 0.50707,0.0018 0.50708,0.0017 0.50707,0.0016 0.50708,0.0015 0.50707,0.0014 0.50708,0.0013 0.50707,0.0013 0.50707,0.0012 0.50708,0.0012 0.50707,0.0011 0.50708,0.0011 0.50707,0.0011 0.50707,10e-4 0.50708,9.83e-4 0.50707,9.49e-4 0.50708,9.15e-4 0.50707,8.83e-4 0.50708,8.51e-4 0.50707,8.18e-4 0.50707,7.85e-4 0.50708,7.52e-4 0.50707,7.19e-4 0.50707,6.86e-4 0.50708,6.53e-4 0.50707,6.2e-4 0.50708,5.88e-4 0.50707,5.58e-4 0.50708,5.27e-4 0.50707,4.99e-4 0.50707,4.72e-4 0.50708,4.47e-4 0.50707,4.23e-4 0.50708,4.01e-4 0.50707,3.79e-4 0.50707,3.6e-4 0.50708,3.4e-4 0.50707,3.21e-4 0.50708,3.04e-4 0.50707,2.85e-4 0.50707,2.67e-4 0.50708,2.49e-4 0.50707,2.3e-4 0.50708,2.13e-4 0.50707,1.94e-4 0.50708,1.75e-4 0.50707,1.59e-4 0.50707,1.41e-4 0.50708,1.25e-4 0.50707,1.1e-4 0.50707,9.6e-5 0.50708,8.3e-5 0.50707,7.3e-5 0.50708,6.3e-5 0.50707,5.6e-5 0.50708,5.1e-5 0.50707,4.6e-5 0.50707,4.4e-5 0.50708,4.3e-5 0.50707,4.3e-5 0.50708,4.5e-5 0.50707,4.6e-5 0.50707,4.9e-5 0.50708,5.1e-5 0.50707,5.4e-5 0.50708,5.6e-5 0.50707,5.9e-5 0.50707,6e-5 0.50708,6.2e-5 0.50707,6.3e-5 0.50708,6.3e-5 0.50707,6.3e-5 0.50707,6.2e-5 0.50708,6.2e-5 0.50707,6e-5 0.50708,5.9e-5 0.50707,5.7e-5 0.50708,5.6e-5 0.50707,5.4e-5 0.50707,5.2e-5 0.50708,5e-5 0.50707,4.8e-5 0.50708,4.6e-5 0.50707,4.6e-5 0.50707,4.3e-5 0.50708,4.3e-5 0.50707,4.3e-5 0.50708,4.2e-5 0.50707,4.3e-5 0.50707,4.3e-5 0.50708,4.4e-5 0.50707,4.5e-5 0.50708,4.7e-5 0.50707,4.8e-5 0.50708,4.9e-5 0.50707,5.1e-5 0.50707,5.2e-5 0.50708,5.2e-5 V -42 v 0 h -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p79daba998f)"
+                 id="g180">
+                <use
+                   xlink:href="#kde_mb1cdd7f119"
+                   x="0"
+                   y="200"
+                   style="fill:#22aa44;fill-opacity:0.75"
+                   id="use180" />
+              </g>
+            </g>
+            <g
+               id="kde_matplotlib.axis_3">
+              <g
+                 id="kde_xtick_6">
+                <g
+                   id="kde_line2d_18">
+                  <g
+                     id="g181">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="383.50507"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use181" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_18">
+                  <!-- −4 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,379.08239,169.55906)"
+                     id="g183">
+                    <use
+                       xlink:href="#kde_DejaVuSans-2212"
+                       id="use182" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-34"
+                       transform="translate(83.789062)"
+                       id="use183" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_7">
+                <g
+                   id="kde_line2d_19">
+                  <g
+                     id="g184">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="444.25253"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use184" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_19">
+                  <!-- −2 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,439.82987,169.55906)"
+                     id="g186">
+                    <use
+                       xlink:href="#kde_DejaVuSans-2212"
+                       id="use185" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-32"
+                       transform="translate(83.789062)"
+                       id="use186" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_8">
+                <g
+                   id="kde_line2d_20">
+                  <g
+                     id="g187">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="505"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use187" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_20">
+                  <!-- 0 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,503.09125,169.55906)"
+                     id="g188">
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use188" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_9">
+                <g
+                   id="kde_line2d_21">
+                  <g
+                     id="g189">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="565.7475"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use189" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_21">
+                  <!-- 2 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,563.83872,169.55906)"
+                     id="g190">
+                    <use
+                       xlink:href="#kde_DejaVuSans-32"
+                       id="use190" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_10">
+                <g
+                   id="kde_line2d_22">
+                  <g
+                     id="g191">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="626.49493"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use191" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_22">
+                  <!-- 4 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,624.5862,169.55906)"
+                     id="g192">
+                    <use
+                       xlink:href="#kde_DejaVuSans-34"
+                       id="use192" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_text_23">
+                <!-- Frustration Index -->
+                <g
+                   transform="matrix(0.07,0,0,-0.07,475.35172,178.12578)"
+                   id="g209">
+                  <defs
+                     id="defs192">
+                    <path
+                       id="kde_DejaVuSans-46"
+                       d="M 628,4666 H 3309 V 4134 H 1259 V 2759 H 3109 V 2228 H 1259 V 0 H 628 Z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-72"
+                       d="m 2631,2963 q -97,56 -211,82 -114,27 -251,27 -488,0 -749,-317 -261,-317 -261,-911 V 0 H 581 v 3500 h 578 v -544 q 182,319 472,473 291,155 707,155 59,0 131,-8 72,-7 159,-23 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-75"
+                       d="m 544,1381 v 2119 h 575 V 1403 q 0,-497 193,-746 194,-248 582,-248 465,0 735,297 271,297 271,810 v 1984 h 575 V 0 H 2900 V 538 Q 2691,219 2414,64 2138,-91 1772,-91 1169,-91 856,284 544,659 544,1381 Z m 1447,2203 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-61"
+                       d="m 2194,1759 q -697,0 -966,-159 -269,-159 -269,-544 0,-306 202,-486 202,-179 548,-179 479,0 768,339 289,339 289,901 v 128 z m 1147,238 V 0 H 2766 V 531 Q 2569,213 2275,61 1981,-91 1556,-91 q -537,0 -855,302 -317,302 -317,808 0,590 395,890 396,300 1180,300 h 807 v 57 q 0,397 -261,614 -261,217 -733,217 -300,0 -585,-72 -284,-72 -546,-216 v 532 q 315,122 612,182 297,61 578,61 760,0 1135,-394 375,-393 375,-1193 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-6f"
+                       d="m 1959,3097 q -462,0 -731,-361 -269,-361 -269,-989 0,-628 267,-989 268,-361 733,-361 460,0 728,362 269,363 269,988 0,622 -269,986 -268,364 -728,364 z m 0,487 q 750,0 1178,-488 429,-487 429,-1349 Q 3566,888 3137,398 2709,-91 1959,-91 1206,-91 779,398 353,888 353,1747 q 0,862 426,1349 427,488 1180,488 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-20"
+                       transform="scale(0.015625)"
+                       d="" />
+                    <path
+                       id="kde_DejaVuSans-49"
+                       d="m 628,4666 h 631 V 0 H 628 Z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-64"
+                       d="m 2906,2969 v 1894 h 575 V 0 H 2906 V 525 Q 2725,213 2448,61 2172,-91 1784,-91 1150,-91 751,415 353,922 353,1747 q 0,825 398,1331 399,506 1033,506 388,0 664,-152 277,-151 458,-463 z M 947,1747 q 0,-634 261,-995 261,-361 717,-361 456,0 718,361 263,361 263,995 0,634 -263,995 -262,361 -718,361 -456,0 -717,-361 -261,-361 -261,-995 z"
+                       transform="scale(0.015625)" />
+                    <path
+                       id="kde_DejaVuSans-78"
+                       d="M 3513,3500 2247,1797 3578,0 H 2900 L 1881,1375 863,0 H 184 L 1544,1831 300,3500 h 678 l 928,-1247 928,1247 z"
+                       transform="scale(0.015625)" />
+                  </defs>
+                  <use
+                     xlink:href="#kde_DejaVuSans-46"
+                     id="use193" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-72"
+                     transform="translate(50.269531)"
+                     id="use194" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-75"
+                     transform="translate(91.382812)"
+                     id="use195" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-73"
+                     transform="translate(154.76172)"
+                     id="use196" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-74"
+                     transform="translate(206.86133)"
+                     id="use197" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-72"
+                     transform="translate(246.07031)"
+                     id="use198" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-61"
+                     transform="translate(287.18359)"
+                     id="use199" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-74"
+                     transform="translate(348.46289)"
+                     id="use200" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-69"
+                     transform="translate(387.67187)"
+                     id="use201" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-6f"
+                     transform="translate(415.45508)"
+                     id="use202" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-6e"
+                     transform="translate(476.63672)"
+                     id="use203" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-20"
+                     transform="translate(540.01562)"
+                     id="use204" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-49"
+                     transform="translate(571.80273)"
+                     id="use205" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-6e"
+                     transform="translate(601.29492)"
+                     id="use206" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-64"
+                     transform="translate(664.67383)"
+                     id="use207" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-65"
+                     transform="translate(728.15039)"
+                     id="use208" />
+                  <use
+                     xlink:href="#kde_DejaVuSans-78"
+                     transform="translate(787.92383)"
+                     id="use209" />
+                </g>
+              </g>
+            </g>
+            <g
+               id="kde_matplotlib.axis_4">
+              <g
+                 id="kde_ytick_10" />
+              <g
+                 id="kde_ytick_11" />
+              <g
+                 id="kde_ytick_12" />
+              <g
+                 id="kde_ytick_13" />
+              <g
+                 id="kde_ytick_14" />
+              <g
+                 id="kde_ytick_15" />
+              <g
+                 id="kde_ytick_16" />
+              <g
+                 id="kde_ytick_17" />
+              <g
+                 id="kde_ytick_18" />
+            </g>
+            <g
+               id="kde_line2d_23">
+              <path
+                 d="m 353.13131,157.99997 61.35597,-0.10896 10.14148,-0.24992 6.08489,-0.36167 4.56366,-0.48509 3.54952,-0.60391 2.53537,-0.62282 2.53537,-0.84572 2.0283,-0.87987 2.0283,-1.09677 2.02829,-1.34469 2.0283,-1.61772 2.0283,-1.90576 2.02829,-2.19426 2.53537,-3.12073 3.04245,-4.1989 4.56366,-6.80038 4.0566,-5.89572 2.53537,-3.30787 2.02829,-2.34423 2.0283,-2.04502 2.0283,-1.74193 2.02829,-1.45362 2.0283,-1.19039 2.02829,-0.95245 2.0283,-0.73412 2.0283,-0.53374 2.53537,-0.43671 5.07074,-0.7622 2.02829,-0.62098 2.0283,-0.91578 2.53537,-1.44128 11.15563,-6.83243 3.54952,-2.315714 2.53537,-1.366355 2.0283,-0.828595 2.02829,-0.542616 1.52122,-0.189134 1.52123,0.02157 1.52122,0.249837 1.52122,0.486555 1.52122,0.717505 2.0283,1.271535 2.53537,1.931957 4.56367,3.563685 2.53537,1.66905 2.53537,1.37371 2.02829,0.87717 2.53537,0.82424 3.54952,1.08304 1.01415,0.50114 1.01415,0.69209 1.01415,0.94255 1.01414,1.24327 1.01415,1.5782 1.01415,1.9261 1.52122,3.51082 1.52123,4.12863 3.04244,9.15839 2.53537,7.29024 1.52122,3.792 1.52123,3.22516 1.52122,2.63728 1.52122,2.08362 1.52122,1.59846 1.52122,1.19696 1.52123,0.87991 1.52122,0.63906 2.02829,0.58501 2.53538,0.45287 3.04244,0.30905 4.56367,0.22846 8.11318,0.14622 20.28297,0.0635 34.98811,0.009 v 0"
+                 clip-path="url(#kde_p79daba998f)"
+                 style="fill:none;stroke:#222222;stroke-width:0.8;stroke-linecap:square"
+                 id="path209" />
+            </g>
+            <g
+               id="kde_line2d_24">
+              <path
+                 d="M 474.62626,158 V 10"
+                 clip-path="url(#kde_p79daba998f)"
+                 style="fill:none;stroke:#555555;stroke-width:0.8;stroke-dasharray:2.96, 1.28;stroke-dashoffset:0;stroke-opacity:0.85"
+                 id="path210" />
+            </g>
+            <g
+               id="kde_line2d_25">
+              <path
+                 d="M 528.69151,158 V 10"
+                 clip-path="url(#kde_p79daba998f)"
+                 style="fill:none;stroke:#555555;stroke-width:0.8;stroke-dasharray:2.96, 1.28;stroke-dashoffset:0;stroke-opacity:0.85"
+                 id="path211" />
+            </g>
+            <g
+               id="kde_patch_8">
+              <path
+                 d="M 353.13131,158 H 656.86869"
+                 style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+                 id="path212" />
+            </g>
+            <g
+               id="kde_text_24">
+              <g
+                 id="kde_patch_9">
+                <path
+                   d="m 467.04704,92.969433 h 15.15844 v -7.846875 h -15.15844 z"
+                   style="fill:#ffffff"
+                   id="path213" />
+              </g>
+              <!-- -1.0 -->
+              <g
+                 style="fill:#222222"
+                 transform="matrix(0.06,0,0,-0.06,468.06704,90.701621)"
+                 id="g216">
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2d"
+                   id="use213" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-31"
+                   transform="translate(41.503906)"
+                   id="use214" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2e"
+                   transform="translate(111.08398)"
+                   id="use215" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-30"
+                   transform="translate(149.07227)"
+                   id="use216" />
+              </g>
+            </g>
+            <g
+               id="kde_text_25">
+              <g
+                 id="kde_patch_10">
+                <path
+                   d="m 520.26995,92.969433 h 16.84313 v -7.846875 h -16.84313 z"
+                   style="fill:#ffffff"
+                   id="path216" />
+              </g>
+              <!-- 0.78 -->
+              <g
+                 style="fill:#222222"
+                 transform="matrix(0.06,0,0,-0.06,521.28995,90.701621)"
+                 id="g220">
+                <defs
+                   id="defs216">
+                  <path
+                     id="kde_DejaVuSans-Bold-37"
+                     d="M 428,4666 H 3944 V 3988 L 2125,0 H 953 L 2675,3781 H 428 Z"
+                     transform="scale(0.015625)" />
+                  <path
+                     id="kde_DejaVuSans-Bold-38"
+                     d="m 2228,2088 q -337,0 -519,-185 -181,-184 -181,-528 0,-344 181,-527 182,-182 519,-182 335,0 513,182 178,183 178,527 0,347 -178,530 -178,183 -513,183 z m -878,396 q -425,129 -641,394 -215,266 -215,663 0,590 440,899 441,310 1294,310 847,0 1287,-308 441,-308 441,-901 0,-397 -217,-663 -217,-265 -642,-394 475,-131 717,-426 242,-295 242,-745 Q 4056,619 3595,264 3134,-91 2228,-91 1319,-91 855,264 391,619 391,1313 q 0,450 242,745 242,295 717,426 z m 281,935 q 0,-278 155,-428 155,-150 442,-150 281,0 434,150 154,150 154,428 0,278 -154,426 -153,149 -434,149 -287,0 -442,-150 -155,-150 -155,-425 z"
+                     transform="scale(0.015625)" />
+                </defs>
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-30"
+                   id="use217" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2e"
+                   transform="translate(69.580078)"
+                   id="use218" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-37"
+                   transform="translate(107.56836)"
+                   id="use219" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-38"
+                   transform="translate(177.14844)"
+                   id="use220" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="kde_axes_3">
+            <g
+               id="kde_patch_11">
+              <path
+                 d="M 686.26263,158 H 990 V 10 H 686.26263 Z"
+                 style="fill:#ffffff"
+                 id="path220" />
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_7">
+              <defs
+                 id="defs220">
+                <path
+                   id="kde_m7ba65034a0"
+                   d="m 686.26263,-42 v -0.0012 l 0.50707,-1.6e-4 0.50707,-1.72e-4 0.50708,-1.81e-4 0.50707,-1.92e-4 0.50708,-2.01e-4 0.50707,-2.1e-4 0.50707,-2.18e-4 0.50708,-2.27e-4 0.50707,-2.36e-4 0.50708,-2.44e-4 0.50707,-2.55e-4 0.50708,-2.66e-4 0.50707,-2.79e-4 0.50707,-2.94e-4 0.50708,-3.11e-4 0.50707,-3.3e-4 0.50708,-3.52e-4 0.50707,-3.76e-4 0.50707,-4.03e-4 0.50708,-4.31e-4 0.50707,-4.61e-4 0.50708,-4.92e-4 0.50707,-5.25e-4 0.50707,-5.57e-4 0.50708,-5.88e-4 0.50707,-6.2e-4 0.50708,-6.48e-4 0.50707,-6.75e-4 0.50707,-6.97e-4 0.50708,-7.16e-4 0.50707,-7.3e-4 0.50708,-7.39e-4 0.50707,-7.43e-4 0.50708,-7.41e-4 0.50707,-7.35e-4 0.50707,-7.24e-4 0.50708,-7.1e-4 0.50707,-6.94e-4 0.50707,-6.76e-4 0.50708,-6.6e-4 0.50707,-6.44e-4 0.50708,-6.34e-4 0.50707,-6.26e-4 0.50708,-6.26e-4 0.50707,-6.33e-4 0.50707,-6.47e-4 0.50708,-6.69e-4 0.50707,-7.01e-4 0.50708,-7.4e-4 0.50707,-7.88e-4 0.50707,-8.41e-4 0.50708,-9.02e-4 0.50707,-9.67e-4 0.50708,-0.001 0.50707,-0.0011 0.50707,-0.0012 0.50708,-0.0013 0.50707,-0.0013 0.50708,-0.0014 0.50707,-0.0015 0.50708,-0.0016 0.50707,-0.0017 0.50707,-0.0017 0.50708,-0.0018 0.50707,-0.0019 0.50708,-0.002 0.50707,-0.0021 0.50707,-0.0022 0.50708,-0.0023 0.50707,-0.0024 0.50708,-0.0025 0.50707,-0.0026 0.50707,-0.0027 0.50708,-0.0028 0.50707,-0.0029 0.50708,-0.0031 0.50707,-0.0032 0.50707,-0.0033 0.50708,-0.0035 0.50707,-0.0036 0.50708,-0.0038 0.50707,-0.0039 0.50708,-0.0041 0.50707,-0.0042 0.50707,-0.0044 0.50708,-0.0046 0.50707,-0.0048 0.50707,-0.0049 0.50708,-0.0051 0.50707,-0.0053 0.50708,-0.0055 0.50707,-0.0058 0.50708,-0.006 0.50707,-0.0062 0.50707,-0.0065 0.50708,-0.0068 0.50707,-0.007 0.50708,-0.0073 0.50707,-0.0076 0.50707,-0.0079 0.50708,-0.0082 0.50707,-0.0085 0.50708,-0.0088 0.50707,-0.0091 0.50707,-0.0094 0.50708,-0.0097 0.50707,-0.01001 0.50708,-0.01032 0.50707,-0.01063 0.50708,-0.01094 0.50707,-0.01126 0.50707,-0.01157 0.50708,-0.0119 0.50707,-0.01222 0.50707,-0.01255 0.50708,-0.01289 0.50707,-0.01324 0.50708,-0.0136 0.50707,-0.01398 0.50708,-0.01436 0.50707,-0.01478 0.50707,-0.01521 0.50708,-0.01567 0.50707,-0.01617 0.50708,-0.0167 0.50707,-0.01728 0.50707,-0.0179 0.50708,-0.01857 0.50707,-0.01929 0.50708,-0.02006 0.50707,-0.02089 0.50708,-0.02177 0.50707,-0.0227 0.50707,-0.02367 0.50708,-0.02469 0.50707,-0.02575 0.50707,-0.02684 0.50708,-0.02796 0.50707,-0.0291 0.50708,-0.03026 0.50707,-0.03144 0.50708,-0.03263 0.50707,-0.03383 0.50707,-0.03503 0.50708,-0.03623 0.50707,-0.03744 0.50708,-0.03864 0.50707,-0.03983 0.50707,-0.04102 0.50708,-0.04219 0.50707,-0.04335 0.50708,-0.04449 0.50707,-0.04559 0.50707,-0.04668 0.50708,-0.04773 0.50707,-0.04874 0.50708,-0.04973 0.50707,-0.05069 0.50707,-0.05162 0.50708,-0.05253 0.50707,-0.05343 0.50708,-0.05433 0.50707,-0.05525 0.50707,-0.0562 0.50708,-0.0572 0.50707,-0.05826 0.50708,-0.05942 0.50707,-0.06069 0.50708,-0.0621 0.50707,-0.06366 0.50707,-0.0654 0.50708,-0.06734 0.50707,-0.0695 0.50708,-0.07189 0.50707,-0.07453 0.50707,-0.07743 0.50708,-0.08058 0.50707,-0.084 0.50708,-0.08769 0.50707,-0.09162 0.50708,-0.0958 0.50707,-0.100208 0.50707,-0.104827 0.50708,-0.109642 0.50707,-0.114629 0.50707,-0.119774 0.50708,-0.125056 0.50707,-0.130462 0.50708,-0.13598 0.50707,-0.141601 0.50708,-0.147322 0.50707,-0.153144 0.50707,-0.159073 0.50708,-0.165113 0.50707,-0.17128 0.50708,-0.177584 0.50707,-0.184038 0.50707,-0.190656 0.50708,-0.197451 0.50707,-0.204429 0.50708,-0.211601 0.50707,-0.21897 0.50707,-0.226535 0.50708,-0.234299 0.50707,-0.242256 0.50708,-0.250405 0.50707,-0.258739 0.50707,-0.267258 0.50708,-0.275962 0.50707,-0.284854 0.50708,-0.29394 0.50707,-0.303235 0.50707,-0.312752 0.50708,-0.322515 0.50707,-0.332552 0.50708,-0.342895 0.50707,-0.353576 0.50708,-0.36464 0.50707,-0.376124 0.50707,-0.388075 0.50708,-0.400533 0.50707,-0.413541 0.50708,-0.42714 0.50707,-0.441361 0.50707,-0.456233 0.50708,-0.471774 0.50707,-0.487991 0.50708,-0.504875 0.50707,-0.522409 0.50708,-0.54055 0.50707,-0.559244 0.50707,-0.578415 0.50708,-0.597968 0.50707,-0.617792 0.50707,-0.637759 0.50708,-0.657725 0.50707,-0.677534 0.50708,-0.697022 0.50707,-0.716018 V -42 v 0 h -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p9790feec74)"
+                 id="g221">
+                <use
+                   xlink:href="#kde_m7ba65034a0"
+                   x="0"
+                   y="200"
+                   style="fill:#cc2222;fill-opacity:0.75"
+                   id="use221" />
+              </g>
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_8">
+              <defs
+                 id="defs221">
+                <path
+                   id="kde_m32fbe0c0c1"
+                   d="m 807.96041,-42 v -22.977191 l 0.50707,-0.751835 0.50707,-0.768315 0.50708,-0.783622 0.50707,-0.797608 0.50708,-0.810133 0.50707,-0.821085 0.50707,-0.830363 0.50708,-0.837905 0.50707,-0.843668 0.50708,-0.847652 0.50707,-0.84989 0.50707,-0.850459 0.50708,-0.849475 0.50707,-0.847098 0.50708,-0.843532 0.50707,-0.839019 0.50707,-0.833836 0.50708,-0.828287 0.50707,-0.822704 0.50708,-0.817422 0.50707,-0.812791 0.50707,-0.809146 0.50708,-0.806814 0.50707,-0.806094 0.50708,-0.807264 0.50707,-0.810558 0.50708,-0.816184 0.50707,-0.824306 0.50707,-0.835058 0.50708,-0.848537 0.50707,-0.864817 0.50708,-0.883951 0.50707,-0.905972 0.50707,-0.930906 0.50708,-0.958773 0.50707,-0.989587 0.50708,-1.023362 0.50707,-1.06011 0.50707,-1.099827 0.50708,-1.142498 0.50707,-1.188086 0.50708,-1.2365 0.50707,-1.28764 0.50707,-1.34129 0.50708,-1.39719 0.50707,-1.45502 0.50708,-1.5143 0.50707,-1.57452 0.50708,-1.635 0.50707,-1.69501 0.50707,-1.75368 0.50708,-1.81005 0.50707,-1.86307 0.50708,-1.91159 0.50707,-1.95439 0.50707,-1.99015 0.50708,-2.01752 0.50707,-2.03511 0.50708,-2.04146 0.50707,-2.03514 0.50707,-2.01474 0.50708,-1.9789 0.50707,-1.9264 0.50708,-1.85616 0.50707,-1.76735 0.50707,-1.65937 0.50708,-1.53202 0.50707,-1.38543 0.50708,-1.22018 0.50707,-1.0373 0.50708,-0.83823 0.50707,-0.62488 0.50707,-0.39952 0.50708,-0.16478 0.50707,0.0765 0.50707,0.32118 0.50708,0.56618 0.50707,0.80838 0.50708,1.0447 0.50707,1.27232 0.50708,1.48859 0.50707,1.69122 0.50707,1.87822 0.50708,2.04796 0.50707,2.19921 0.50708,2.33107 0.50707,2.44301 0.50707,2.53483 0.50708,2.60665 0.50707,2.65884 0.50708,2.69206 0.50707,2.70716 0.50707,2.70518 0.50708,2.68733 0.50707,2.65493 0.50708,2.60939 0.50707,2.55218 0.50708,2.48479 0.50707,2.40873 0.50707,2.325434 0.50708,2.236347 0.50707,2.142783 0.50708,2.045994 0.50707,1.947126 0.50707,1.847218 0.50708,1.747205 V -42 v 0 h -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p9790feec74)"
+                 id="g222">
+                <use
+                   xlink:href="#kde_m32fbe0c0c1"
+                   x="0"
+                   y="200"
+                   style="fill:#bbbbbb;fill-opacity:0.75"
+                   id="use222" />
+              </g>
+            </g>
+            <g
+               id="kde_FillBetweenPolyCollection_9">
+              <defs
+                 id="defs222">
+                <path
+                   id="kde_ma8a710207d"
+                   d="m 862.21733,-42 v -44.219034 l 0.50708,1.550058 0.50707,1.454277 0.50707,1.361105 0.50708,1.271 0.50707,1.184342 0.50708,1.101442 0.50707,1.022546 0.50707,0.947835 0.50708,0.877431 0.50707,0.811399 0.50708,0.74975 0.50707,0.692437 0.50708,0.639367 0.50707,0.5904 0.50707,0.545348 0.50708,0.503989 0.50707,0.466067 0.50707,0.43129 0.50708,0.39935 0.50707,0.369914 0.50708,0.342638 0.50707,0.317172 0.50708,0.293165 0.50707,0.270276 0.50707,0.248179 0.50708,0.226575 0.50707,0.205203 0.50708,0.183846 0.50707,0.162339 0.50707,0.140585 0.50708,0.118551 0.50707,0.09627 0.50708,0.07386 0.50707,0.05149 0.50707,0.0294 0.50708,0.0079 0.50707,-0.01279 0.50708,-0.03222 0.50707,-0.05006 0.50708,-0.06599 0.50707,-0.07968 0.50707,-0.09086 0.50708,-0.09931 0.50707,-0.104867 0.50708,-0.107431 0.50707,-0.106983 0.50707,-0.103569 0.50708,-0.09731 0.50707,-0.08837 0.50708,-0.077 0.50707,-0.06348 0.50707,-0.04813 0.50708,-0.03129 0.50707,-0.01332 0.50708,0.0054 0.50707,0.02448 0.50707,0.04358 0.50708,0.06233 0.50707,0.08041 0.50708,0.09749 0.50707,0.113296 0.50708,0.127579 0.50707,0.140123 0.50707,0.150757 0.50708,0.159354 0.50707,0.165839 0.50707,0.17019 0.50708,0.172445 0.50707,0.172702 0.50708,0.171124 0.50707,0.167927 0.50708,0.163395 0.50707,0.157856 0.50707,0.151686 0.50708,0.145291 0.50707,0.139102 0.50708,0.133554 0.50707,0.129075 0.50707,0.126069 0.50708,0.124898 0.50707,0.125879 0.50708,0.12926 0.50707,0.13522 0.50707,0.143856 0.50708,0.155193 0.50707,0.169168 0.50708,0.185651 0.50707,0.204445 0.50708,0.225293 0.50707,0.2479 0.50707,0.271935 0.50708,0.297054 0.50707,0.322901 0.50707,0.349129 0.50708,0.375404 0.50707,0.401409 0.50708,0.426852 0.50707,0.451466 0.50708,0.475003 0.50707,0.497242 0.50707,0.517974 0.50708,0.537008 0.50707,0.554161 0.50708,0.56926 0.50707,0.582138 0.50707,0.592636 0.50708,0.600608 0.50707,0.60592 0.50708,0.608459 0.50707,0.608139 0.50708,0.604902 0.50707,0.598733 0.50707,0.589656 0.50708,0.577744 0.50707,0.563113 0.50707,0.545929 0.50708,0.526403 0.50707,0.504784 0.50708,0.481354 0.50707,0.456425 0.50708,0.430327 0.50707,0.403395 0.50707,0.375974 0.50708,0.348396 0.50707,0.320981 0.50708,0.294032 0.50707,0.267821 0.50707,0.242598 0.50708,0.218573 0.50707,0.195925 0.50708,0.174797 0.50707,0.155294 0.50707,0.137487 0.50708,0.121413 0.50707,0.107075 0.50708,0.09445 0.50707,0.08348 0.50707,0.07409 0.50708,0.06619 0.50707,0.05967 0.50708,0.0544 0.50707,0.05025 0.50707,0.04709 0.50708,0.04479 0.50707,0.0432 0.50708,0.0422 0.50707,0.04167 0.50708,0.0415 0.50707,0.04158 0.50707,0.04183 0.50708,0.04215 0.50707,0.04249 0.50708,0.04278 0.50707,0.04297 0.50707,0.04304 0.50708,0.04294 0.50707,0.04267 0.50708,0.04221 0.50707,0.04156 0.50708,0.04072 0.50707,0.03971 0.50707,0.03854 0.50708,0.03722 0.50707,0.03578 0.50707,0.03424 0.50708,0.03263 0.50707,0.03096 0.50708,0.02926 0.50707,0.02756 0.50708,0.02586 0.50707,0.02419 0.50707,0.02255 0.50708,0.02097 0.50707,0.01945 0.50708,0.01799 0.50707,0.01659 0.50707,0.01526 0.50708,0.014 0.50707,0.01281 0.50708,0.01169 0.50707,0.01063 0.50707,0.0096 0.50708,0.0087 0.50707,0.0078 0.50708,0.007 0.50707,0.0063 0.50707,0.0056 0.50708,0.0049 0.50707,0.0043 0.50708,0.0038 0.50707,0.0033 0.50707,0.0029 0.50708,0.0025 0.50707,0.0022 0.50708,0.0019 0.50707,0.0016 0.50708,0.0014 0.50707,0.0012 0.50707,10e-4 0.50708,8.8e-4 0.50707,7.48e-4 0.50708,6.35e-4 0.50707,5.37e-4 0.50707,4.52e-4 0.50708,3.79e-4 0.50707,3.15e-4 0.50708,2.62e-4 0.50707,2.15e-4 0.50708,1.76e-4 0.50707,1.42e-4 0.50707,1.15e-4 0.50708,9.2e-5 0.50707,7.2e-5 0.50707,5.6e-5 0.50708,4.4e-5 0.50707,3.4e-5 0.50708,2.5e-5 0.50707,1.9e-5 0.50708,1.4e-5 0.50707,1e-5 0.50707,7e-6 0.50708,4e-6 0.50707,3e-6 0.50708,10e-7 h 0.50707 l 0.50707,-2e-6 0.50708,-2e-6 0.50707,-4e-6 0.50708,-5e-6 0.50707,-7e-6 0.50707,-7e-6 0.50708,-9e-6 0.50707,-1.1e-5 0.50708,-1.2e-5 0.50707,-1.4e-5 0.50707,-1.4e-5 0.50708,-1.6e-5 0.50707,-1.7e-5 0.50708,-1.7e-5 0.50707,-1.8e-5 0.50708,-1.7e-5 0.50707,-1.7e-5 0.50707,-1.5e-5 0.50708,-1.3e-5 0.50707,-1.1e-5 0.50708,-8e-6 0.50707,-5e-6 0.50707,-3e-6 0.50708,1e-6 0.50707,5e-6 0.50708,7e-6 0.50707,1e-5 V -42 v 0 h -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 -0.50708 -0.50707 -0.50708 -0.50707 -0.50707 z" />
+              </defs>
+              <g
+                 clip-path="url(#kde_p9790feec74)"
+                 id="g223">
+                <use
+                   xlink:href="#kde_ma8a710207d"
+                   x="0"
+                   y="200"
+                   style="fill:#22aa44;fill-opacity:0.75"
+                   id="use223" />
+              </g>
+            </g>
+            <g
+               id="kde_matplotlib.axis_5">
+              <g
+                 id="kde_xtick_11">
+                <g
+                   id="kde_line2d_26">
+                  <g
+                     id="g224">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="716.63635"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use224" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_26">
+                  <!-- −4 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,712.21371,169.55906)"
+                     id="g226">
+                    <use
+                       xlink:href="#kde_DejaVuSans-2212"
+                       id="use225" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-34"
+                       transform="translate(83.789062)"
+                       id="use226" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_12">
+                <g
+                   id="kde_line2d_27">
+                  <g
+                     id="g227">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="777.38385"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use227" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_27">
+                  <!-- −2 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,772.96118,169.55906)"
+                     id="g229">
+                    <use
+                       xlink:href="#kde_DejaVuSans-2212"
+                       id="use228" />
+                    <use
+                       xlink:href="#kde_DejaVuSans-32"
+                       transform="translate(83.789062)"
+                       id="use229" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_13">
+                <g
+                   id="kde_line2d_28">
+                  <g
+                     id="g230">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="838.13129"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use230" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_28">
+                  <!-- 0 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,836.22256,169.55906)"
+                     id="g231">
+                    <use
+                       xlink:href="#kde_DejaVuSans-30"
+                       id="use231" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_14">
+                <g
+                   id="kde_line2d_29">
+                  <g
+                     id="g232">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="898.87878"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use232" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_29">
+                  <!-- 2 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,896.97004,169.55906)"
+                     id="g233">
+                    <use
+                       xlink:href="#kde_DejaVuSans-32"
+                       id="use233" />
+                  </g>
+                </g>
+              </g>
+              <g
+                 id="kde_xtick_15">
+                <g
+                   id="kde_line2d_30">
+                  <g
+                     id="g234">
+                    <use
+                       xlink:href="#kde_m48372fd0bb"
+                       x="959.62628"
+                       y="158"
+                       style="stroke:#000000;stroke-width:0.8"
+                       id="use234" />
+                  </g>
+                </g>
+                <g
+                   id="kde_text_30">
+                  <!-- 4 -->
+                  <g
+                     transform="matrix(0.06,0,0,-0.06,957.71751,169.55906)"
+                     id="g235">
+                    <use
+                       xlink:href="#kde_DejaVuSans-34"
+                       id="use235" />
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g
+               id="kde_matplotlib.axis_6">
+              <g
+                 id="kde_ytick_19" />
+              <g
+                 id="kde_ytick_20" />
+              <g
+                 id="kde_ytick_21" />
+              <g
+                 id="kde_ytick_22" />
+              <g
+                 id="kde_ytick_23" />
+              <g
+                 id="kde_ytick_24" />
+              <g
+                 id="kde_ytick_25" />
+              <g
+                 id="kde_ytick_26" />
+              <g
+                 id="kde_ytick_27" />
+            </g>
+            <g
+               id="kde_line2d_31">
+              <path
+                 d="m 686.26263,157.99881 44.62251,-0.12119 14.70515,-0.25822 10.14148,-0.37985 7.09904,-0.49895 7.60611,-0.77246 5.57782,-0.75254 3.54952,-0.67378 3.54952,-0.91483 3.04244,-1.01023 3.04244,-1.24964 2.53537,-1.25296 2.53537,-1.47074 2.53538,-1.71618 2.53537,-2.00541 2.02829,-1.85736 2.0283,-2.12708 2.02829,-2.43194 2.0283,-2.74829 2.53537,-3.83573 3.54952,-5.8407 5.57781,-9.15377 4.56367,-7.41963 2.0283,-3.6796 2.02829,-4.17289 1.52123,-3.567084 1.52122,-4.02612 1.52122,-4.543832 2.0283,-6.893744 2.53537,-9.736723 3.54952,-13.887911 1.52122,-4.958733 1.01415,-2.605616 1.01415,-1.87553 0.50707,-0.624878 0.50707,-0.399521 0.50708,-0.164778 0.50707,0.07647 0.50707,0.321173 0.50708,0.566186 0.50707,0.808375 1.01415,2.317021 1.01415,3.179814 1.01415,3.926181 1.52122,6.973287 2.53537,13.199535 3.04245,15.693806 2.02829,9.113292 1.52122,5.84034 1.52123,4.94517 1.52122,4.08639 1.52122,3.30833 1.52122,2.63666 1.52123,2.08156 1.52122,1.63973 1.52122,1.29671 1.52122,1.02972 1.52122,0.81162 1.52123,0.61563 1.52122,0.42147 1.52122,0.22162 1.52122,0.0245 2.0283,-0.22794 6.08489,-1.01861 1.52122,0.0166 2.0283,0.28381 2.02829,0.53176 8.11319,2.4505 3.04244,0.85858 1.52123,0.61539 1.52122,0.81689 1.52122,1.04743 1.52122,1.27973 2.0283,2.02723 2.53537,2.8988 4.56366,5.30259 2.0283,1.96897 1.52122,1.2097 1.52123,0.9634 1.52122,0.729 1.52122,0.52601 2.0283,0.46042 2.53537,0.33784 8.11318,0.69316 7.09904,0.48044 6.59196,0.1881 11.66271,0.0543 22.81833,8.1e-4 v 0"
+                 clip-path="url(#kde_p9790feec74)"
+                 style="fill:none;stroke:#222222;stroke-width:0.8;stroke-linecap:square"
+                 id="path235" />
+            </g>
+            <g
+               id="kde_line2d_32">
+              <path
+                 d="M 807.75758,158 V 10"
+                 clip-path="url(#kde_p9790feec74)"
+                 style="fill:none;stroke:#555555;stroke-width:0.8;stroke-dasharray:2.96, 1.28;stroke-dashoffset:0;stroke-opacity:0.85"
+                 id="path236" />
+            </g>
+            <g
+               id="kde_line2d_33">
+              <path
+                 d="M 861.82283,158 V 10"
+                 clip-path="url(#kde_p9790feec74)"
+                 style="fill:none;stroke:#555555;stroke-width:0.8;stroke-dasharray:2.96, 1.28;stroke-dashoffset:0;stroke-opacity:0.85"
+                 id="path237" />
+            </g>
+            <g
+               id="kde_patch_12">
+              <path
+                 d="M 686.26263,158 H 990"
+                 style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+                 id="path238" />
+            </g>
+            <g
+               id="kde_text_31">
+              <g
+                 id="kde_patch_13">
+                <path
+                   d="M 800.17836,43.908889 H 815.3368 V 36.062014 H 800.17836 Z"
+                   style="fill:#ffffff"
+                   id="path239" />
+              </g>
+              <!-- -1.0 -->
+              <g
+                 style="fill:#222222"
+                 transform="matrix(0.06,0,0,-0.06,801.19836,41.641076)"
+                 id="g242">
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2d"
+                   id="use239" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-31"
+                   transform="translate(41.503906)"
+                   id="use240" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2e"
+                   transform="translate(111.08398)"
+                   id="use241" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-30"
+                   transform="translate(149.07227)"
+                   id="use242" />
+              </g>
+            </g>
+            <g
+               id="kde_text_32">
+              <g
+                 id="kde_patch_14">
+                <path
+                   d="m 853.40127,43.908889 h 16.84312 v -7.846875 h -16.84312 z"
+                   style="fill:#ffffff"
+                   id="path242" />
+              </g>
+              <!-- 0.78 -->
+              <g
+                 style="fill:#222222"
+                 transform="matrix(0.06,0,0,-0.06,854.42127,41.641076)"
+                 id="g246">
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-30"
+                   id="use243" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-2e"
+                   transform="translate(69.580078)"
+                   id="use244" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-37"
+                   transform="translate(107.56836)"
+                   id="use245" />
+                <use
+                   xlink:href="#kde_DejaVuSans-Bold-38"
+                   transform="translate(177.14844)"
+                   id="use246" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <defs
+           id="defs248">
+          <clipPath
+             id="kde_p14ec4303b4">
+            <rect
+               x="20"
+               y="10"
+               width="303.73737"
+               height="148"
+               id="rect246" />
+          </clipPath>
+          <clipPath
+             id="kde_p79daba998f">
+            <rect
+               x="353.13132"
+               y="10"
+               width="303.73737"
+               height="148"
+               id="rect247" />
+          </clipPath>
+          <clipPath
+             id="kde_p9790feec74">
+            <rect
+               x="686.26263"
+               y="10"
+               width="303.73737"
+               height="148"
+               id="rect248" />
+          </clipPath>
+        </defs>
+      </g>
+    </g>
+    <!-- ── FI equation (overlapping KDE, between SR and MUT) ── -->
+    <rect
+       x="270"
+       y="641"
+       width="140"
+       height="56"
+       rx="5"
+       fill="#ffffff"
+       fill-opacity="0.92"
+       stroke="#aaaaaa"
+       stroke-width="1"
+       id="rect249" />
+    <text
+       x="340"
+       y="656"
+       text-anchor="middle"
+       font-family="'Helvetica Neue', Arial, sans-serif"
+       font-size="12px"
+       font-style="italic"
+       fill="#333333"
+       id="text249">FI =</text>
+    <text
+       x="340"
+       y="672"
+       text-anchor="middle"
+       font-family="'Helvetica Neue', Arial, sans-serif"
+       font-size="12px"
+       font-style="italic"
+       fill="#333333"
+       id="text253"><tspan
+         id="tspan249">E</tspan><tspan
+         font-size="8.5px"
+         dy="3"
+         id="tspan250">native</tspan><tspan
+         dy="-3"
+         id="tspan251">− μ</tspan><tspan
+         font-size="8.5px"
+         dy="3"
+         id="tspan252">decoy</tspan><tspan
+         dy="-3"
+         id="tspan253" /></text>
+    <line
+       x1="279"
+       y1="676"
+       x2="401"
+       y2="676"
+       stroke="#555555"
+       stroke-width="1"
+       id="line253" />
+    <text
+       x="340"
+       y="689"
+       text-anchor="middle"
+       font-family="'Helvetica Neue', Arial, sans-serif"
+       font-size="12px"
+       font-style="italic"
+       fill="#333333"
+       id="text254">σ<tspan
+   font-size="8.5px"
+   dy="3"
+   id="tspan254">decoy</tspan></text>
+  </g>
+</svg>
